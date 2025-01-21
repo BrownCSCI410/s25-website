@@ -66,9 +66,9 @@ export class Labs extends React.Component<LabProps> {
             ]),
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
-        { cellNames: ["7", "SRC", "Automation and Job Displacement"], 
+        { cellNames: ["7", "SRC", "Automation & Job Displacement"], 
             cellNametoLinks: new Map<string,string>([
-                ["Automation and Job Displacement", "https://docs.google.com/presentation/d/16SP-71By8lvwx3emyMQBjpdkB-GlDHBYXOcUb20mfNE/edit?usp=sharing"],
+                ["Automation & Job Displacement", "https://docs.google.com/presentation/d/16SP-71By8lvwx3emyMQBjpdkB-GlDHBYXOcUb20mfNE/edit?usp=sharing"],
             ]),
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
