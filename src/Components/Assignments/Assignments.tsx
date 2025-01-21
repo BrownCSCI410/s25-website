@@ -154,7 +154,7 @@ export class Assignments extends React.Component<AssignmentProps> {
                 <div className="content-container">
                     
                     <h2>Assignments</h2>
-                    <p className="mb-5">Assignments will typically be released at 4:00 PM EST on Tuesdays and due at 11:59 PM EST on Tuesdays</p>
+                    <p className="mb-5">Assignments will typically be released at 2:00 PM EST on Wednesdays and due at 11:59 PM EST on Tuesdays</p>
                     <TableSection header={this.myHeader} rows={modifiedRows} />
                         
                     
