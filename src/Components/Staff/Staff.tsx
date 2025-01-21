@@ -46,7 +46,7 @@ export class Staff extends React.Component<StaffProps> {
                     image={Mindy} game = "Chaos Tag" hometown = "Folsom, CA"></StaffCard>
 
                 </div>
-                <h3>Joint SRC/UTAs</h3>
+                <h3>Joint STA/UTAs</h3>
                 <div className="card-container-staff2">
                     <StaffCard name="Christian" cslogin="carmstr8" pronouns="he/him"
                     blurb="I'm still trying to figure out who I am." 
