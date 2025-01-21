@@ -90,7 +90,7 @@ export class Labs extends React.Component<LabProps> {
             ]),
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
-        { cellNames: ["11", "SRC", "AI & Warfare"], 
+        { cellNames: ["11", "SRC", "AI Warfare"], 
             cellNametoLinks: new Map<string,string>([
                 ["AI & Warfare", "https://docs.google.com/presentation/d/1asIhTkBmGsnHUQ51kTtpS5plE7fDp3DiH6rUkQ33t4o/edit?usp=sharing"],
             ]),

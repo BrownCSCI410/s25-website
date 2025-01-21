@@ -9,6 +9,7 @@ import Darren from "../../Photos/darren_wang.jpg"
 import Elliot from "../../Photos/Elliot_Photo.jpg"
 import Eric from "../../Photos/Eric.png"
 import Grace from "../../Photos/grace_wang.png"
+import Jen from "../../Photos/Jen.png"
 import Karina from "../../Photos/karina_liba.jpg"
 import Leanne from "../../Photos/leanne_chia.jpg"
 import Mindy from "../../Photos/mindy.jpg"
@@ -40,6 +41,10 @@ export class Staff extends React.Component<StaffProps> {
                     <StaffCard name="Daniel" cslogin="dzhu36" pronouns="he/him"
                     blurb="Hi! My name is Daniel. I'm a junior concentrating in computer science. I'm also pre-med. In my free time, I like to cook, hike, and read books/manga. Let me know if you ever want to have a chat :)" 
                     image={Daniel} game = "Pokemon" hometown = "San Ramon, CA"></StaffCard>
+
+                    <StaffCard name="Jen" cslogin="jchen397" pronouns="she/her"
+                    blurb="when I'm not sitting and thinking, I'm just sitting" 
+                    image={Jen} game = "Going into the woods behind houses and building fairy hideouts and starting governments" hometown = "Livingston, NJ"></StaffCard>
 
                     <StaffCard name="Mindy" cslogin="mkim314" pronouns="she/her"
                     blurb="Hi! My name is Mindy, and I am a junior studying cs + neuro interested in Neuro AI research. When I am not studying at cute coffee shops, I spend my free time going to the gym, updating my Beli with new restaurant reviews, and binge watching sitcoms. " 
