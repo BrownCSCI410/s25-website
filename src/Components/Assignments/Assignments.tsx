@@ -38,7 +38,7 @@ export class Assignments extends React.Component<AssignmentProps> {
         {
             cellNames: ["Homework 0: Uninformed Search", "1/22", "1/29"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 0: Uninformed Search", "https://hackmd.io/@cs410/HyJcHGsOR"]
+                ["Homework 0: Uninformed Search", "https://hackmd.io/@cs410/HyVxfCLP1l"]
             ]),
             autoReleaseDate: "Jan 22, 2025 01:00:00 EDT",
         },
@@ -46,28 +46,28 @@ export class Assignments extends React.Component<AssignmentProps> {
         {
             cellNames: ["Homework 1: A*", "1/29", "2/5"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 1: A*", "https://hackmd.io/@cs410/SyRfGzVuA"]
+                ["Homework 1: A*", "https://hackmd.io/@cs410/Bkz77CUw1g"]
             ]),
             autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
         },        
         {
             cellNames: ["Homework 2: Adversarial Search", "2/5", "2/12"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 2: Adversarial Search", "https://hackmd.io/@cs410/HkoGT4muA"]
+                ["Homework 2: Adversarial Search", "https://hackmd.io/@cs410/SkwkZLaPkg"]
             ]),
             autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
         },
         {
             cellNames: ["Homework 3: SAT", "2/12", "2/19"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 3: SAT", "https://hackmd.io/@cs410/ryRXQUZcA"]
+                ["Homework 3: SAT", "https://hackmd.io/@cs410/B1EeC7OP1g"]
             ]),
             autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
         },
         {
             cellNames: ["Homework 4: Decision Trees", "2/19", "2/26"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 4: Decision Trees", "https://hackmd.io/@cs410/BkC3wh2i0"]
+                ["Homework 4: Decision Trees", "https://hackmd.io/@cs410/B1Tna4pv1e"]
             ]),
             autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
         },
@@ -81,7 +81,7 @@ export class Assignments extends React.Component<AssignmentProps> {
         {
             cellNames: ["Homework 6: Linear Regression", "3/5", "3/12"], 
             cellNametoLinks: new Map<string, string>([
-                ["Homework 6: Linear Regression", "https://hackmd.io/@cs410/H1zf78Z5R"]
+                ["Homework 6: Linear Regression", "https://hackmd.io/@cs410/ryQGJ_pwyg"]
             ]),
             autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
         },
