@@ -78,7 +78,7 @@ export class Staff extends React.Component<StaffProps> {
                     
                     <StaffCard name="Grace" cslogin="gwang71" pronouns="she/her"
                     blurb="Hello! My name is Grace, and I'm a sophomore studying APMA-CS. In my free time, I enjoy crocheting, drawing, learning new languages, and re-watching Gravity Falls :)" 
-                    image={Grace} game = "Chaos Tag" hometown="Bellevue, WA"></StaffCard>
+                    image={Grace} game = "Pictionary" hometown="Bellevue, WA"></StaffCard>
 
                     <StaffCard name="Karina" cslogin="kliba" pronouns="she/her"
                     blurb="Hi! My name is Karina and I’m a sophomore from Cornwall NY concentrating in CS. In my free time I like to bake, play on my switch, and spend time outside, especially hiking. I’m so excited to TA this semester!" 

@@ -35,9 +35,10 @@ export class Resources extends React.Component<ResourcesProps> {
 
                         <h2>Forms</h2>
                         <ul>
-                            <li><a href="https://forms.gle/38jyADwzYByYB3TE8">Collaboration Policy Acknowledgment</a></li>
-                            <li><a href="https://forms.gle/2baK8BT13ibbe87P9">Course Onboarding Form</a></li>
-                            <li><a href="https://forms.gle/2huXFFjWmDfeuc46A">Anonymous Feedback Form</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQH9CowvCa6Uopg_XngfvV1z0vq70g8oRI79Ej1QBsMUVpYQ/viewform">Collaboration Policy Acknowledgment</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSes6vK7EalQ_wJl4qGfwqkLvr40P0LUhxAqDEudP1NNWNdmDA/viewform">Course Onboarding Form</a></li>
+                            
+                            
                         </ul>
                     </div>
                 </div>
