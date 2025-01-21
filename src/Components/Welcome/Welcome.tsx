@@ -23,7 +23,7 @@ export class Welcome extends React.Component{
                     all with an eye towards building socially responsible AI. </p>
                     <p>Course: CSCI 0410/1411
                     <br></br>
-                    Professors: Amy Greenwald & Eric Ewing
+                    Professor: Eric Ewing
                     <br></br>
                     Location: Salomon 001
                     <br></br>
