@@ -50,7 +50,7 @@ export class Staff extends React.Component<StaffProps> {
                 <div className="card-container-staff2">
                     <StaffCard name="Christian" cslogin="carmstr8" pronouns="he/him"
                     blurb="I'm still trying to figure out who I am." 
-                    image={Christian} game = "Chaos Tag" hometown="I belong nowhere"></StaffCard>
+                    image={Christian} game = "Bloons Tower Defense 5" hometown="I belong nowhere"></StaffCard>
 
                     <StaffCard name="Sarah" cslogin="sliao13" pronouns="she/her"
                     blurb="Hi! I'm Sarah, a sophomore studying computer science. I'm a part of Moli, Lion Dance, and AVGE. If you're interested in any of them or want to catch a performance lmk!" 
