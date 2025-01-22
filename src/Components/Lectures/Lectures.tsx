@@ -38,7 +38,7 @@ export class Lectures extends React.Component<LectureProps> {
 
 
     myRows: RowOptions[] = [
-        { cellNames: ["1/22", "Introduction to AI", "R&N Chapter 1", "Slides", " "], cellNametoLinks: new Map<string,string>([["Slides", "https://docs.google.com/presentation/d/1xpg5aYXuw2Psp1nxxzDkSOsmMQijVjdgAa2Z1oMk3Fg/edit?usp=sharing"]]),autoReleaseDate: "Jan 22, 2025 01:00:00 EDT" },
+        { cellNames: ["1/22", "Introduction to AI", "R&N Chapter 1", "Slides", " "], cellNametoLinks: new Map<string,string>([["Slides", ""]]),autoReleaseDate: "Jan 22, 2025 02:00:00 EDT" },
 
         /** 
         { cellNames: ["1/24", "Blind Search", "R&N 3.0-3.4", "Notes", "Blind Search Algorithms"], cellNametoLinks: new Map<string,string>([["Notes", "./lecture_notes/blind_search.pdf"], ["Blind Search Algorithms", "https://cs.stanford.edu/people/eroberts/courses/soco/projects/2003-04/intelligent-search/blind.html"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },

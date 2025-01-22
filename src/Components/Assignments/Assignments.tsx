@@ -40,7 +40,7 @@ export class Assignments extends React.Component<AssignmentProps> {
             cellNametoLinks: new Map<string, string>([
                 ["Homework 0: Uninformed Search", "https://hackmd.io/@cs410/HyVxfCLP1l"]
             ]),
-            autoReleaseDate: "Jan 22, 2025 01:00:00 EDT",
+            autoReleaseDate: "Jan 22, 2025 02:00:00 EDT",
         },
         
         {
@@ -48,84 +48,84 @@ export class Assignments extends React.Component<AssignmentProps> {
             cellNametoLinks: new Map<string, string>([
                 ["Homework 1: A*", "https://hackmd.io/@cs410/Bkz77CUw1g"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Jan 29, 2025 02:00:00 EDT",
         },        
         {
             cellNames: ["Homework 2: Adversarial Search", "2/5", "2/11"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 2: Adversarial Search", "https://hackmd.io/@cs410/SkwkZLaPkg"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Feb 05, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 3: SAT", "2/12", "2/18"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 3: SAT", "https://hackmd.io/@cs410/B1EeC7OP1g"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Feb 12, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 4: Decision Trees", "2/19", "2/25"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 4: Decision Trees", "https://hackmd.io/@cs410/B1Tna4pv1e"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Feb 19, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 5: Numpy/Linear Algebra/Probability Review, LP", "2/26", "3/4"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 5: Numpy/Linear Algebra/Probability Review, LP", "https://hackmd.io/@cs410/HyDxsO4JJe"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Feb 26, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 6: Linear Regression", "3/5", "3/11"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 6: Linear Regression", "https://hackmd.io/@cs410/ryQGJ_pwyg"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Mar 05, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 7: Neural Networks", "3/12", "3/18"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 7: Neural Networks", "https://hackmd.io/@cs410/BkAJXzKKA"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Mar 12, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 8: MDPs and Reinforcement Learning", "3/19", "4/1"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 8: MDPs and Reinforcement Learning", "https://hackmd.io/b5v4YzLPTgCN850dxSt2hg?view"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Mar 19, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Homework 9: Reinforcement Learning and Function Approximation", "4/2", "4/8"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 9: Reinforcement Learning and Function Approximation", "https://hackmd.io/@cs410/HJCWTN7OA"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Apr 02, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Final Project Part 1", "4/9", "4/15"], 
             cellNametoLinks: new Map<string, string>([
                 ["Final Project Part 1", "assignments/Final_Project_Part_1.pdf"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Apr 09, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Final Project Part 2", "4/16", "4/24"], 
             cellNametoLinks: new Map<string, string>([
                 ["Final Project Part 2", "assignments/Final_Project_Part_2.pdf"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Apr 16, 2025 02:00:00 EDT",
         },
         {
             cellNames: ["Final Project Part 3", "4/25", "tbd"], 
             cellNametoLinks: new Map<string, string>([
                 ["Final Project Part 3", "assignments/Final_Project_Part_3.pdf"]
             ]),
-            autoReleaseDate: "Mar 16, 2025 04:00:00 EDT",
+            autoReleaseDate: "Apr 25, 2025 02:00:00 EDT",
         },
         
     ];
