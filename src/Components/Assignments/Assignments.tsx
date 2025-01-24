@@ -36,7 +36,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 
     myRows: RowOptions[] = [
         {
-            cellNames: ["Homework 0: Uninformed Search", "1/22", "1/28"], 
+            cellNames: ["Homework 0: Uninformed Search", "1/22", "2/4"], 
             cellNametoLinks: new Map<string, string>([
                 ["Homework 0: Uninformed Search", "https://hackmd.io/@cs410/HyVxfCLP1l"]
             ]),

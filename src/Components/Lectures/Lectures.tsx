@@ -38,10 +38,10 @@ export class Lectures extends React.Component<LectureProps> {
 
 
     myRows: RowOptions[] = [
-        { cellNames: ["1/22", "Introduction to AI", "R&N Chapter 1", "Slides", " "], cellNametoLinks: new Map<string,string>([["Slides", ""]]),autoReleaseDate: "Jan 22, 2025 02:00:00 EDT" },
-
-        /** 
-        { cellNames: ["1/24", "Blind Search", "R&N 3.0-3.4", "Notes", "Blind Search Algorithms"], cellNametoLinks: new Map<string,string>([["Notes", "./lecture_notes/blind_search.pdf"], ["Blind Search Algorithms", "https://cs.stanford.edu/people/eroberts/courses/soco/projects/2003-04/intelligent-search/blind.html"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
+        { cellNames: ["1/22", "Introduction to AI", "R&N Chapter 1", "Slides", " "], cellNametoLinks: new Map<string,string>([["Slides", "https://docs.google.com/presentation/d/1xpg5aYXuw2Psp1nxxzDkSOsmMQijVjdgAa2Z1oMk3Fg/edit?usp=sharing"]]),autoReleaseDate: "Jan 22, 2025 02:00:00 EDT" },
+        { cellNames: ["1/24", "Blind Search", "R&N 3.0-3.4", "Notes", "Blind Search Algorithms"], cellNametoLinks: new Map<string,string>([["Notes", require("./lecture_notes/blind_search.pdf")], ["Blind Search Algorithms", "https://cs.stanford.edu/people/eroberts/courses/soco/projects/2003-04/intelligent-search/blind.html"]]),autoReleaseDate: "Jan 24, 2025 02:00:00 EDT"  },
+        
+        /**
         { cellNames: ["1/27", "Informed Search", "R&N 3.4-3.5.1", "Notes", "Heuristic Search Algorithms"], cellNametoLinks: new Map<string,string>([["Notes", "./lecture_notes/informed_search.pdf"], ["Heuristic Search Algorithms", "https://cs.stanford.edu/people/eroberts/courses/soco/projects/2003-04/intelligent-search/blind.html"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["1/29", "A* Search", "R&N 3.5.2-3.7", "Notes", "Pathfinding Visualizations"], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["1/31", "Adversarial Search", "R&N 5.0-5.3", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/adversarial_search.pdf"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
