@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Steps for Deploying
+1. use 'npm run build' to build the web application
+2. commit to GitHub (git add ., git commit -m " ", git push)
+3. use 'npm run deploy' to deploy the web application
+
+After these steps, the webpage should be update both on github and
+in the actual deployed version. Sometimes, it may be necessary
+to clear browser cache to see the new changes. You can confirm if the deployment worked successfully by:
+1. navigating to the s25-website repo
+2. clicking on 'Settings'
+3. click on Pages
+
+At this point, you should see a message like 'Your site is live at...
+Last deployed by <your username> at <time>, and you can use the link
+to access the deployed site.
