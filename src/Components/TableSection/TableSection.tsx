@@ -51,8 +51,16 @@ export class TableSection extends React.Component<TableSectionProps> {
         
         if (cells){
             for (let i = 0; i < cells.cellNames.length; i++) { //rendering the normal rows
-
-                const data = cells.cellNametoLinks.get(cells.cellNames[i]) ? <td key={i}> <a href= {`${cells.cellNametoLinks.get(cells.cellNames[i])}`}> {cells.cellNames[i]} </a></td> : <td key={i}> {cells.cellNames[i]}</td>
+                const link = cells.cellNametoLinks.get(cells.cellNames[i]);
+                const data = link ? (
+                    <td key={i}>
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                      {cells.cellNames[i]}
+                    </a>
+                  </td>
+                ) : (
+                  <td key={i}>{cells.cellNames[i]}</td>
+                );
                 row.push(data);
             }
         }
