@@ -18,10 +18,6 @@ interface TableSectionProps {
 
 export class TableSection extends React.Component<TableSectionProps> {
 
-    constructor(props: any) {
-        super(props);
-    }
-
     renderTable () {
         let regRows: JSX.Element[] = []
 

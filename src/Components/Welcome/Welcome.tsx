@@ -1,7 +1,5 @@
 import React from 'react'
 
-import TempLogo from "../../Photos/temp logo.png"
-
 export class Welcome extends React.Component{
 
     render(){

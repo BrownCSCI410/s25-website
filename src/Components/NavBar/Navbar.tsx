@@ -1,7 +1,5 @@
 import React from "react";
 
-import TempLogo from "../../Photos/temp logo.png"
-
 interface NavbarProps {}
 const offset = -100; // Adjust this offset to match the height of your navbar or the amount you want to scroll up
 
