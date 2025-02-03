@@ -76,8 +76,8 @@ export class Lectures extends React.Component<LectureProps> {
 			]),
 			autoReleaseDate: "Jan 29, 2025 02:00:00 EDT",
 		},	
-        { cellNames: ["1/31", "A* Search", "R&N 3.5.2-3.7", "Notes", "Pathfinding Visualizations"], cellNametoLinks: new Map<string,string>([["Notes", "./lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Jan 29, 2025 02:00:00 ED"  },
-        { cellNames: ["2/3", "Adversarial Search", "R&N 5.0-5.3", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "./lecture_notes/adversarial_search.pdf"]]) ,autoReleaseDate: "Jan 29, 2025 02:00:00 ED" },
+        { cellNames: ["1/31", "A* Search", "R&N 3.5.2-3.7", "Notes", "Pathfinding Visualizations"], cellNametoLinks: new Map<string,string>([["Notes", require("./lecture_notes/informed_search.pdf")],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Jan 29, 2025 02:00:00 ED"  },
+        { cellNames: ["2/3", "Adversarial Search", "R&N 5.0-5.3", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", require("./lecture_notes/adversarial_search.pdf")]]) ,autoReleaseDate: "Jan 29, 2025 02:00:00 ED" },
         /**
 	{ cellNames: ["2/3", "Local Search", "R&N 4.0-4.1", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/local_search.pdf"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
 	{ cellNames: ["2/5", "Prepositional Logic and Satisfiability", "R&N 7.3-7.5.2", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/satisfiability.pdf"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
