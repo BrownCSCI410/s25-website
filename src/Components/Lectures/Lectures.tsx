@@ -111,7 +111,7 @@ export class Lectures extends React.Component<LectureProps> {
         { 
 			cellNames: ["2/7", "Conjunctive Normal Form", "R&N 6.1, 6.4", "Notes", " "], 
 			cellNametoLinks: new Map<string,string>([
-				["Notes", "lecture_notes/cnfs.pdf"]]) ,
+				["Notes", require("lecture_notes/cnfs.pdf")]]) ,
 			autoReleaseDate: "Feb 7, 2025 04:00:00 EDT" },
 
 			/** 
