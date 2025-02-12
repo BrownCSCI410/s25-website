@@ -16,6 +16,7 @@ import Mindy from "../../Photos/mindy.jpg"
 import Preetish from "../../Photos/preetish_juneja.jpg"
 import Sarah from "../../Photos/sarah_liao.jpg"
 import Shiv from "../../Photos/Shivshankar Prasad.jpg"
+import Sahil from "../../Photos/sahil_gupta.jpg"
 import Tiffney from "../../Photos/tiffney_aina.png"
 import Torsten from "../../Photos/Torsten.jpg"
 
@@ -91,6 +92,10 @@ export class Staff extends React.Component<StaffProps> {
                     <StaffCard name="Preetish" cslogin="pjuneja3" pronouns="he/him"
                     blurb="I'm a junior studying cs and apma-econ. I enjoy being outdoors and playing soccer regardless of the weather. Hmu if you're down to play" 
                     image={Preetish} game = "civ6" hometown = "Singapore"></StaffCard>
+
+                    <StaffCard name="Sahil" cslogin="sgupt136" pronouns="he/him"
+                    blurb="Hi! I'm Sahil, a junior concentrating in Computer Science. When I'm not in studying the Sci Li, I love to learn new card games, play tennis with friends, or binge Netflix shows." 
+                    image={Sahil} game = "Kickball" hometown = "Herndon, VA"></StaffCard>
 
                     <StaffCard name="Shiv" cslogin="sprasa28" pronouns="he/him"
                     blurb="Hi! My name is Shiv, and I'm a sophomore from the Chicago suburbs concentrating in APMA-CS. In my free time I like to play piano, work out, and read. Super hyped for this semester!" 
