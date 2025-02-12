@@ -107,22 +107,49 @@ export class Lectures extends React.Component<LectureProps> {
 			]),
 			autoReleaseDate: "Feb 5, 2025 02:00:00 EDT",
 		},
-		
-        { 
-			cellNames: ["2/7", "Conjunctive Normal Form", "R&N 6.1, 6.4", "Notes", " "], 
-			cellNametoLinks: new Map<string,string>([
-				["Notes", require("./lecture_notes/cnfs.pdf")]]) ,
-			autoReleaseDate: "Feb 7, 2025 04:00:00 EDT" },
 
-			/** 
-        { 
-			cellNames: ["2/10", "Probability Review", "R&N 13", "Notes", " "], 
-			cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/probability.pdf"]]),
-			autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  }, */
+		{
+			cellNames: [
+				"2/7",
+				"Conjunctive Normal Form",
+				"R&N 6.1, 6.4",
+				"Notes",
+				" ",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/cnfs.pdf")],
+			]),
+			autoReleaseDate: "Feb 7, 2025 04:00:00 EDT",
+		},
+
+		{
+			cellNames: ["2/10", "Probability Review", "R&N 13", "Notes", " "],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/probability.pdf")],
+			]),
+			autoReleaseDate: "Feb 10, 2025 04:00:00 EDT",
+		},
+
+		{
+			cellNames: [
+				"2/12",
+				"Bayesian Networks",
+				"R&N 14-14.5",
+				"Notes",
+				"Particle Filters",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/bayes_nets.pdf")],
+				[
+					"Particle Filters",
+					"https://amrl.cs.utexas.edu/interactive-particle-filters/",
+				],
+			]),
+			autoReleaseDate: "Feb 12, 2025 04:00:00 EDT",
+		},
 
 		/**
-				
-        { cellNames: ["2/12", "Bayesian Networks", "R&N 14-14.5", "Notes", "Particle Filters"], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/bayes_nets.pdf"],["Particle Filters", "https://amrl.cs.utexas.edu/interactive-particle-filters/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
+
         { cellNames: ["2/14", "Statistics Review", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["2/19", "Intro to Supervised Learning", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["2/21", "k Nearest Neighbors", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
