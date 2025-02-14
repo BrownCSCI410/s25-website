@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/s25-website/static/css/main.fbf93b6e.css",
-    "main.js": "/s25-website/static/js/main.77abe696.js",
+    "main.js": "/s25-website/static/js/main.ef0021a5.js",
     "static/js/453.9013924b.chunk.js": "/s25-website/static/js/453.9013924b.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -21,24 +21,24 @@
     "static/media/adversarial_search.pdf": "/s25-website/static/media/adversarial_search.cd7d55b5b6ab4ac8c691.pdf",
     "static/media/local_search.pdf": "/s25-website/static/media/local_search.a5dc7fafdb2ead6dbf26.pdf",
     "static/media/blind_search.pdf": "/s25-website/static/media/blind_search.c0e8c0df26a0cf1da9b3.pdf",
-    "static/media/bayes_nets.pdf": "/s25-website/static/media/bayes_nets.0aa486aa61018a4a0245.pdf",
     "static/media/A-star Search.pdf": "/s25-website/static/media/A-star Search.57bed303c6f14f1d8025.pdf",
     "static/media/cnfs.pdf": "/s25-website/static/media/cnfs.fbf8b1ef95e4db54122d.pdf",
-    "static/media/probability.pdf": "/s25-website/static/media/probability.ead8c76a631a3947009d.pdf",
     "static/media/preetish_juneja.jpg": "/s25-website/static/media/preetish_juneja.f82651e53973d6c44c17.jpg",
+    "static/media/convex_optimization.pdf": "/s25-website/static/media/convex_optimization.991ab0f70c265e0dff45.pdf",
     "static/media/darren_wang.jpg": "/s25-website/static/media/darren_wang.dc1a8a68eeb3dc8442f8.jpg",
     "static/media/Eric.png": "/s25-website/static/media/Eric.74c69c1241acdf9ff905.png",
+    "static/media/constraint_satisfaction.pdf": "/s25-website/static/media/constraint_satisfaction.578b98445782c76cece7.pdf",
     "static/media/sahil_gupta.jpg": "/s25-website/static/media/sahil_gupta.6dbc062d981a708bf7de.jpg",
     "static/media/Game Of Squids.ttf": "/s25-website/static/media/Game Of Squids.e0727d0bce17b79e412d.ttf",
     "static/media/mindy.jpg": "/s25-website/static/media/mindy.f9d797bb1827c488fb04.jpg",
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
     "main.fbf93b6e.css.map": "/s25-website/static/css/main.fbf93b6e.css.map",
-    "main.77abe696.js.map": "/s25-website/static/js/main.77abe696.js.map",
+    "main.ef0021a5.js.map": "/s25-website/static/js/main.ef0021a5.js.map",
     "453.9013924b.chunk.js.map": "/s25-website/static/js/453.9013924b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbf93b6e.css",
-    "static/js/main.77abe696.js"
+    "static/js/main.ef0021a5.js"
   ]
 }
