@@ -123,9 +123,9 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 
 		{
-			cellNames: ["2/10", "Probability Review", "R&N 13", "Notes", " "],
+			cellNames: ["2/10", "Constraint Satisfaction", "R&N 13", "Notes", " "],
 			cellNametoLinks: new Map<string, string>([
-				["Notes", require("./lecture_notes/probability.pdf")],
+				["Notes", require("./lecture_notes/constraint_satisfaction.pdf")],
 			]),
 			autoReleaseDate: "Feb 10, 2025 04:00:00 EDT",
 		},
@@ -133,13 +133,13 @@ export class Lectures extends React.Component<LectureProps> {
 		{
 			cellNames: [
 				"2/12",
-				"Bayesian Networks",
+				"Convex Optimization",
 				"R&N 14-14.5",
 				"Notes",
 				"Particle Filters",
 			],
 			cellNametoLinks: new Map<string, string>([
-				["Notes", require("./lecture_notes/bayes_nets.pdf")],
+				["Notes", require("./lecture_notes/convex_optimization.pdf")],
 				[
 					"Particle Filters",
 					"https://amrl.cs.utexas.edu/interactive-particle-filters/",
