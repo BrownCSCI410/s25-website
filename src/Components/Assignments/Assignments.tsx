@@ -75,7 +75,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 			cellNames: [
 				"Homework 5: Numpy/Linear Algebra/Probability Review, LP",
 				"2/28",
-				"3/5",
+				"3/4",
 			],
 			cellNametoLinks: new Map<string, string>([
 				[
