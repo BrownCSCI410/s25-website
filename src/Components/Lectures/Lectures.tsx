@@ -155,8 +155,15 @@ export class Lectures extends React.Component<LectureProps> {
 			autoReleaseDate: "Feb 19, 2025 04:00:00 EDT",
 		},
 
+		{
+			cellNames: ["2/21", "Probability", "", "Notes", ""],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/probability.pdf")],
+			]),
+			autoReleaseDate: "Feb 21, 2025 04:00:00 EDT",
+		},
+
 		/**
-        { cellNames: ["2/19", "Intro to Supervised Learning", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["2/21", "k Nearest Neighbors", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["2/24", "Naive Bayes", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["2/26", "Continuous Optimization", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
