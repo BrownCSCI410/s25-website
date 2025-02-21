@@ -65,17 +65,17 @@ export class Assignments extends React.Component<AssignmentProps> {
 			autoReleaseDate: "Feb 12, 2025 02:00:00 EDT",
 		},
 		{
-			cellNames: ["Homework 4: Constraint Optimization", "2/21", "2/25"],
+			cellNames: ["Homework 4: Constraint Optimization", "2/21", "2/28"],
 			cellNametoLinks: new Map<string, string>([
-				["Homework 4: Decision Trees", "https://hackmd.io/@cs410/B1Tna4pv1e"],
+				["Homework 4: Constraint Optimization", "https://hackmd.io/sxmRWvjBRGmRiZWfQlQfjw"],
 			]),
 			autoReleaseDate: "Feb 21, 2025 02:00:00 EDT",
 		},
 		{
 			cellNames: [
 				"Homework 5: Numpy/Linear Algebra/Probability Review, LP",
-				"2/26",
-				"3/4",
+				"2/28",
+				"3/5",
 			],
 			cellNametoLinks: new Map<string, string>([
 				[
@@ -83,7 +83,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"https://hackmd.io/@cs410/HyDxsO4JJe",
 				],
 			]),
-			autoReleaseDate: "Feb 26, 2025 02:00:00 EDT",
+			autoReleaseDate: "Feb 28, 2025 02:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 6: Linear Regression", "3/5", "3/11"],
