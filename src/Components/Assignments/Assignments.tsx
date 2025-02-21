@@ -74,7 +74,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 		{
 			cellNames: [
 				"Homework 5: Numpy/Linear Algebra/Probability Review, LP",
-				"2/28",
+				"2/25",
 				"3/4",
 			],
 			cellNametoLinks: new Map<string, string>([
@@ -83,7 +83,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"https://hackmd.io/@cs410/HyDxsO4JJe",
 				],
 			]),
-			autoReleaseDate: "Feb 28, 2025 02:00:00 EDT",
+			autoReleaseDate: "Feb 25, 2025 02:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 6: Linear Regression", "3/5", "3/11"],
