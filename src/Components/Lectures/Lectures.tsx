@@ -156,7 +156,7 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 
 		{
-			cellNames: ["2/21", "Probability", "", "Notes", ""],
+			cellNames: ["2/21", "Probability", "R&N 12", "Notes", ""],
 			cellNametoLinks: new Map<string, string>([
 				["Notes", require("./lecture_notes/probability.pdf")],
 			]),
