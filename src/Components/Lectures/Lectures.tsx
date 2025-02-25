@@ -148,6 +148,13 @@ export class Lectures extends React.Component<LectureProps> {
 			autoReleaseDate: "Feb 12, 2025 04:00:00 EDT",
 		},
 		{
+			cellNames: ["2/14", "Linear Programming", "", "Notes", " "],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/mathematical_programming.pdf")],
+			]),
+			autoReleaseDate: "Feb 14, 2025 04:00:00 EDT",
+		},
+		{
 			cellNames: ["2/19", "Mathematical Programming", "", "Notes", " "],
 			cellNametoLinks: new Map<string, string>([
 				["Notes", require("./lecture_notes/mathematical_programming.pdf")],
