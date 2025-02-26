@@ -73,7 +73,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 		},
 		{
 			cellNames: [
-				"Homework 5: Numpy/Linear Algebra/Probability Review, LP",
+				"Homework 5: Model Selection",
 				"2/26",
 				"3/4",
 			],
