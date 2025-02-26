@@ -80,7 +80,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 			cellNametoLinks: new Map<string, string>([
 				[
 					"Homework 5: Numpy/Linear Algebra/Probability Review, LP",
-					"https://hackmd.io/@cs410/HyDxsO4JJe",
+					"",
 				],
 			]),
 			autoReleaseDate: "Feb 26, 2025 02:00:00 EDT",
