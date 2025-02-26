@@ -65,7 +65,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 			autoReleaseDate: "Feb 12, 2025 02:00:00 EDT",
 		},
 		{
-			cellNames: ["Homework 4: Constrained Optimization", "2/21", "2/25"],
+			cellNames: ["Homework 4: Constrained Optimization", "2/21", "2/28"],
 			cellNametoLinks: new Map<string, string>([
 				["Homework 4: Constrained Optimization", "https://hackmd.io/@cs410/SJyDMKBK1g"],
 			]),
