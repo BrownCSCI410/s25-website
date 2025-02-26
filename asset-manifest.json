@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/s25-website/static/css/main.fbf93b6e.css",
-    "main.js": "/s25-website/static/js/main.57749871.js",
+    "main.js": "/s25-website/static/js/main.165dfeb2.js",
     "static/js/453.9013924b.chunk.js": "/s25-website/static/js/453.9013924b.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -26,6 +26,7 @@
     "static/media/probability.pdf": "/s25-website/static/media/probability.ead8c76a631a3947009d.pdf",
     "static/media/preetish_juneja.jpg": "/s25-website/static/media/preetish_juneja.f82651e53973d6c44c17.jpg",
     "static/media/convex_optimization.pdf": "/s25-website/static/media/convex_optimization.991ab0f70c265e0dff45.pdf",
+    "static/media/decision_trees.pdf": "/s25-website/static/media/decision_trees.79a62d7726957bb736d2.pdf",
     "static/media/mathematical_programming.pdf": "/s25-website/static/media/mathematical_programming.e0928fadb0d4090a9a58.pdf",
     "static/media/darren_wang.jpg": "/s25-website/static/media/darren_wang.dc1a8a68eeb3dc8442f8.jpg",
     "static/media/Eric.png": "/s25-website/static/media/Eric.74c69c1241acdf9ff905.png",
@@ -36,11 +37,11 @@
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
     "main.fbf93b6e.css.map": "/s25-website/static/css/main.fbf93b6e.css.map",
-    "main.57749871.js.map": "/s25-website/static/js/main.57749871.js.map",
+    "main.165dfeb2.js.map": "/s25-website/static/js/main.165dfeb2.js.map",
     "453.9013924b.chunk.js.map": "/s25-website/static/js/453.9013924b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbf93b6e.css",
-    "static/js/main.57749871.js"
+    "static/js/main.165dfeb2.js"
   ]
 }
