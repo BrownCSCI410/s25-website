@@ -83,7 +83,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"",
 				],
 			]),
-			autoReleaseDate: "Feb 26, 2025 02:00:00 EDT",
+			autoReleaseDate: "Feb 26, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 6: Linear Regression", "3/5", "3/11"],
@@ -93,14 +93,14 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"https://hackmd.io/@cs410/ryQGJ_pwyg",
 				],
 			]),
-			autoReleaseDate: "Mar 05, 2025 02:00:00 EDT",
+			autoReleaseDate: "Mar 05, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 7: Neural Networks", "3/12", "3/18"],
 			cellNametoLinks: new Map<string, string>([
 				["Homework 7: Neural Networks", "https://hackmd.io/@cs410/BkAJXzKKA"],
 			]),
-			autoReleaseDate: "Mar 12, 2025 02:00:00 EDT",
+			autoReleaseDate: "Mar 12, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 8: MDPs and Reinforcement Learning", "3/19", "4/1"],
@@ -110,7 +110,7 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"https://hackmd.io/b5v4YzLPTgCN850dxSt2hg?view",
 				],
 			]),
-			autoReleaseDate: "Mar 19, 2025 02:00:00 EDT",
+			autoReleaseDate: "Mar 19, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: [
@@ -124,28 +124,28 @@ export class Assignments extends React.Component<AssignmentProps> {
 					"https://hackmd.io/@cs410/HJCWTN7OA",
 				],
 			]),
-			autoReleaseDate: "Apr 02, 2025 02:00:00 EDT",
+			autoReleaseDate: "Apr 02, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Final Project Part 1", "4/9", "4/15"],
 			cellNametoLinks: new Map<string, string>([
 				["Final Project Part 1", "assignments/Final_Project_Part_1.pdf"],
 			]),
-			autoReleaseDate: "Apr 09, 2025 02:00:00 EDT",
+			autoReleaseDate: "Apr 09, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Final Project Part 2", "4/16", "4/24"],
 			cellNametoLinks: new Map<string, string>([
 				["Final Project Part 2", "assignments/Final_Project_Part_2.pdf"],
 			]),
-			autoReleaseDate: "Apr 16, 2025 02:00:00 EDT",
+			autoReleaseDate: "Apr 16, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Final Project Part 3", "4/25", "tbd"],
 			cellNametoLinks: new Map<string, string>([
 				["Final Project Part 3", "assignments/Final_Project_Part_3.pdf"],
 			]),
-			autoReleaseDate: "Apr 25, 2025 02:00:00 EDT",
+			autoReleaseDate: "Apr 25, 2025 14:00:00 EDT",
 		},
 	];
 
