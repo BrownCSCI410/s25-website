@@ -86,14 +86,14 @@ export class Assignments extends React.Component<AssignmentProps> {
 			autoReleaseDate: "Feb 26, 2025 14:00:00 EDT",
 		},
 		{
-			cellNames: ["Homework 6: Linear Regression", "3/5", "3/11"],
+			cellNames: ["Homework 6: Linear Regression and Bias-Variance Tradeoff", "3/5", "3/11"],
 			cellNametoLinks: new Map<string, string>([
 				[
-					"Homework 6: Linear Regression",
+					"Homework 6: Linear Regression and Bias-Variance Tradeoff",
 					"https://hackmd.io/@cs410/ryQGJ_pwyg",
 				],
 			]),
-			autoReleaseDate: "Mar 05, 2026 14:00:00 EDT",
+			autoReleaseDate: "Mar 05, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Homework 7: Neural Networks", "3/12", "3/18"],
