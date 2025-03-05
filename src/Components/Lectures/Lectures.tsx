@@ -179,11 +179,7 @@ export class Lectures extends React.Component<LectureProps> {
 				" ",
 			],
 			cellNametoLinks: new Map<string, string>([
-				["Notes", require("./lecture_notes/informed_search.pdf")],
-				[
-					"Pathfinding Visualizations",
-					"https://qiao.github.io/PathFinding.js/visual/",
-				],
+				["Notes", require("./lecture_notes/knn.pdf")],
 			]),
 			autoReleaseDate: "Feb 24, 2025 04:00:00 EDT",
 		},
@@ -195,13 +191,25 @@ export class Lectures extends React.Component<LectureProps> {
 			]),
 			autoReleaseDate: "Feb 26, 2025 04:00:00 EDT",
 		},
+		{
+			cellNames: [
+				"3/3 - 3/5",
+				"Linear & Polynomial Regression",
+				"R&N Chapter 3.5.2-3.7",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/regression.pdf")],
+			]),
+			autoReleaseDate: "Mar 3, 2025 04:00:00 EDT",
+		},
 
 		/**
         { cellNames: ["2/24", "Naive Bayes", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["2/26", "Continuous Optimization", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["2/28", "Constrained Optimization", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/3", "Linear Algebra Review", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
-        { cellNames: ["3/5", "Linear Regression", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/7", "Bias-Variance Decomposition, Linear Regression", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/10", "Neural Nets - Perceptrons", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/12", "Neural Nets - Back-propagation", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
