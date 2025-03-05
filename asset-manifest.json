@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/s25-website/static/css/main.fbf93b6e.css",
-    "main.js": "/s25-website/static/js/main.03cb588d.js",
+    "main.js": "/s25-website/static/js/main.85070b5c.js",
     "static/js/453.9013924b.chunk.js": "/s25-website/static/js/453.9013924b.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -16,6 +16,7 @@
     "static/media/squidgame_background.jpeg": "/s25-website/static/media/squidgame_background.7eade09a11ec12f91a63.jpeg",
     "static/media/Elliot_Photo.jpg": "/s25-website/static/media/Elliot_Photo.01297f62dd8062fc8d73.jpg",
     "static/media/Christian_Armstrong.jpg": "/s25-website/static/media/Christian_Armstrong.f6d1d94f5504df249664.jpg",
+    "static/media/regression.pdf": "/s25-website/static/media/regression.989a53f5c3a6b4545e9b.pdf",
     "static/media/berny.png": "/s25-website/static/media/berny.735bf68a925ef5ad1d00.png",
     "static/media/informed_search.pdf": "/s25-website/static/media/informed_search.1fe0e1b4e2d37ce0e757.pdf",
     "static/media/adversarial_search.pdf": "/s25-website/static/media/adversarial_search.cd7d55b5b6ab4ac8c691.pdf",
@@ -27,6 +28,7 @@
     "static/media/preetish_juneja.jpg": "/s25-website/static/media/preetish_juneja.f82651e53973d6c44c17.jpg",
     "static/media/convex_optimization.pdf": "/s25-website/static/media/convex_optimization.991ab0f70c265e0dff45.pdf",
     "static/media/decision_trees.pdf": "/s25-website/static/media/decision_trees.79a62d7726957bb736d2.pdf",
+    "static/media/knn.pdf": "/s25-website/static/media/knn.aae983575341e9abf62b.pdf",
     "static/media/mathematical_programming.pdf": "/s25-website/static/media/mathematical_programming.e0928fadb0d4090a9a58.pdf",
     "static/media/darren_wang.jpg": "/s25-website/static/media/darren_wang.dc1a8a68eeb3dc8442f8.jpg",
     "static/media/Eric.png": "/s25-website/static/media/Eric.74c69c1241acdf9ff905.png",
@@ -37,11 +39,11 @@
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
     "main.fbf93b6e.css.map": "/s25-website/static/css/main.fbf93b6e.css.map",
-    "main.03cb588d.js.map": "/s25-website/static/js/main.03cb588d.js.map",
+    "main.85070b5c.js.map": "/s25-website/static/js/main.85070b5c.js.map",
     "453.9013924b.chunk.js.map": "/s25-website/static/js/453.9013924b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbf93b6e.css",
-    "static/js/main.03cb588d.js"
+    "static/js/main.85070b5c.js"
   ]
 }
