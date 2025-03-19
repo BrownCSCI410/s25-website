@@ -206,7 +206,7 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 		{
 			cellNames: [
-				"3/10 - 3/12",
+				"3/10 - 3/14",
 				"Neural Nets",
 				"R&N Chapter 3.5.2-3.7",
 				"Notes",
@@ -216,6 +216,19 @@ export class Lectures extends React.Component<LectureProps> {
 				["Notes", require("./lecture_notes/neural_nets.pdf")],
 			]),
 			autoReleaseDate: "Mar 10, 2025 04:00:00 EDT",
+		},
+		{
+			cellNames: [
+				"3/17 - 3/19",
+				"Markov Chains and MDPS",
+				"R&N Chapter 3.5.2-3.7",
+				"Notes",
+				" ",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./lecture_notes/mdp.pdf")],
+			]),
+			autoReleaseDate: "Mar 17, 2025 04:00:00 EDT",
 		},
 
 		/**
@@ -227,7 +240,6 @@ export class Lectures extends React.Component<LectureProps> {
         { cellNames: ["3/10", "Neural Nets - Perceptrons", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/12", "Neural Nets - Back-propagation", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["3/14", "Neural Nets - Logistic Regression", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
-        { cellNames: ["3/17", "Markov Chains and MDPS: Prediction (Policy Evaluation)", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["3/19", "MDPs: Control (Value Iteration)", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
         { cellNames: ["3/21", "Reinforcement Learning", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
         { cellNames: ["3/31", "MDPs with Function Approximation", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]),autoReleaseDate: "Mar 16, 2025 04:00:00 EDT"  },
