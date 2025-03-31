@@ -56,8 +56,9 @@ export class Labs extends React.Component<LabProps> {
         },
         { cellNames: ["5", "SRC", "Algorithmic & Data Bias"], 
             cellNametoLinks: new Map<string,string>([
-                ["Algorithmic & Data Bias", "https://docs.google.com/presentation/d/1792_1e7TOm1ez9-gzIdcxKDO8ZFycpmSqKr8k9ztUHE/edit?usp=sharing"],
+                ["Algorithmic & Data Bias", ""],
             ]),
+            //"https://docs.google.com/presentation/d/1792_1e7TOm1ez9-gzIdcxKDO8ZFycpmSqKr8k9ztUHE/edit?usp=sharing"
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
         { cellNames: ["6", "Conceptual", "HW 4 & 5"], 
