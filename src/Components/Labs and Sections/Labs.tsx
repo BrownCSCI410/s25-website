@@ -76,25 +76,25 @@ export class Labs extends React.Component<LabProps> {
             cellNametoLinks: new Map<string,string>([
                 ["HW 6 & 7", "https://docs.google.com/presentation/d/1vvxkkFs26D7PakHIidGK91WnmBlTG1i-oHkxxRPD_Mo/edit?usp=sharing"],
             ]),
-            autoReleaseDate: "April 5, 2025 10:30:00 EDT",
+            autoReleaseDate: "April 4, 2025 16:00:00 EDT",
         },
         { cellNames: ["9", "SRC", "Explainable AI & Imitation"], 
             cellNametoLinks: new Map<string,string>([
                 ["Explainable AI & Imitation", ""],
             ]),
-            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "April 11, 2025 16:00:00 EDT",
         },
         { cellNames: ["10", "Conceptual", "HW 8 & 9"], 
             cellNametoLinks: new Map<string,string>([
                 ["HW 8 & 9", ""],
             ]),
-            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "April 18, 2025 16:00:00 EDT",
         },
         { cellNames: ["11", "SRC", "AI Warfare"], 
             cellNametoLinks: new Map<string,string>([
                 ["AI & Warfare", ""],
             ]),
-            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "April 25, 2025 16:00:00 EDT",
         },
         
         
