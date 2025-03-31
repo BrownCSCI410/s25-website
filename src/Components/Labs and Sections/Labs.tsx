@@ -32,7 +32,7 @@ export class Labs extends React.Component<LabProps> {
     myRows: RowOptions[] = [
         { cellNames: ["1", "SRC", "AI Policy"], 
             cellNametoLinks: new Map<string,string>([
-                ["AI Policy", "https://docs.google.com/presentation/d/15RoAzqSn6n0et0vuz3wVfKwzR2j8hRHZt6AhLh6gAiU/edit?usp=sharing"],
+                ["AI Policy", "https://docs.google.com/presentation/d/1ug7BtFXLwotO7LWwl2rriy-P_kqlKnRCphvTYyeglMc/edit?slide=id.g2a52a5ed207_5_494#slide=id.g2a52a5ed207_5_494"],
             ]),
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
@@ -44,7 +44,7 @@ export class Labs extends React.Component<LabProps> {
         },
         { cellNames: ["3", "SRC", "AI Energy Consumption"], 
             cellNametoLinks: new Map<string,string>([
-                ["AI Energy Consumption", "https://docs.google.com/presentation/d/1fupjc6023mVVUJaY6cH0R9Noo75rYc8AHD3pExLT9w8/edit?usp=sharing"],
+                ["AI Energy Consumption", "https://docs.google.com/presentation/d/1jypNtNg6cKjmRdtL4GBOV33ayNpNYR5j32B2Moju-Rs/edit?slide=id.g2a5331bf39c_2_0#slide=id.g2a5331bf39c_2_0"],
             ]),
             autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
         },
@@ -77,25 +77,25 @@ export class Labs extends React.Component<LabProps> {
             cellNametoLinks: new Map<string,string>([
                 ["HW 6 & 7", "https://docs.google.com/presentation/d/1BFWSPdTQa2DIi2LsiFsIHza7fOT-0pvVHR1ix3w0QE4/edit?usp=sharing"],
             ]),
-            autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
         },
         { cellNames: ["9", "SRC", "Explainable AI & Imitation"], 
             cellNametoLinks: new Map<string,string>([
                 ["Explainable AI & Imitation", "https://docs.google.com/presentation/d/1Mn3QS6nS_hFa0IC-rDLmzY4XT0bHypuQmc4Ge0oEK4o/edit?usp=sharing"],
             ]),
-            autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
         },
         { cellNames: ["10", "Conceptual", "HW 8 & 9"], 
             cellNametoLinks: new Map<string,string>([
                 ["HW 8 & 9", "https://docs.google.com/presentation/d/1E0wKNS066tNrDkZleNprqc5sNQCDGwbra876QNbEPls/edit?usp=sharing"],
             ]),
-            autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
         },
         { cellNames: ["11", "SRC", "AI Warfare"], 
             cellNametoLinks: new Map<string,string>([
                 ["AI & Warfare", "https://docs.google.com/presentation/d/1asIhTkBmGsnHUQ51kTtpS5plE7fDp3DiH6rUkQ33t4o/edit?usp=sharing"],
             ]),
-            autoReleaseDate: "Mar 10, 2025 10:30:00 EDT",
+            autoReleaseDate: "May 10, 2025 10:30:00 EDT",
         },
         
         
