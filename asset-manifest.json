@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/s25-website/static/css/main.c19392be.css",
-    "main.js": "/s25-website/static/js/main.c337b280.js",
+    "main.css": "/s25-website/static/css/main.fbf93b6e.css",
+    "main.js": "/s25-website/static/js/main.59346520.js",
     "static/js/453.9013924b.chunk.js": "/s25-website/static/js/453.9013924b.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -40,12 +40,12 @@
     "static/media/mindy.jpg": "/s25-website/static/media/mindy.f9d797bb1827c488fb04.jpg",
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
-    "main.c19392be.css.map": "/s25-website/static/css/main.c19392be.css.map",
-    "main.c337b280.js.map": "/s25-website/static/js/main.c337b280.js.map",
+    "main.fbf93b6e.css.map": "/s25-website/static/css/main.fbf93b6e.css.map",
+    "main.59346520.js.map": "/s25-website/static/js/main.59346520.js.map",
     "453.9013924b.chunk.js.map": "/s25-website/static/js/453.9013924b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c19392be.css",
-    "static/js/main.c337b280.js"
+    "static/css/main.fbf93b6e.css",
+    "static/js/main.59346520.js"
   ]
 }
