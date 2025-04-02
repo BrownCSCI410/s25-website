@@ -219,7 +219,7 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 		{
 			cellNames: [
-				"3/17 - 3/19",
+				"3/17 - 3/31",
 				"Markov Chains and MDPS",
 				"R&N Chapter 3.5.2-3.7",
 				"Notes",
