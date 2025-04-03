@@ -121,10 +121,10 @@ export class Assignments extends React.Component<AssignmentProps> {
 			cellNametoLinks: new Map<string, string>([
 				[
 					"Homework 9: Reinforcement Learning and Function Approximation",
-					"https://hackmd.io/@cs410/HJCWTN7OA",
+					"https://hackmd.io/@cs410/SJO5MTca1e",
 				],
 			]),
-			autoReleaseDate: "Apr 02, 2026 14:00:00 EDT",
+			autoReleaseDate: "Apr 02, 2025 14:00:00 EDT",
 		},
 		{
 			cellNames: ["Final Project Part 1", "4/9", "4/15"],
