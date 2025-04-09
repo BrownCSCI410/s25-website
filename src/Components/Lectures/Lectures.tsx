@@ -232,7 +232,7 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 		{
 			cellNames: [
-				"4/2 - 4/9",
+				"4/2 - 4/7",
 				"Reinforcement Learning",
 				"R&N Chapter 3.5.2-3.7",
 				"Notes",
@@ -243,6 +243,19 @@ export class Lectures extends React.Component<LectureProps> {
 				["More Notes", require("./lecture_notes/rl_notes.pdf")],
 			]),
 			autoReleaseDate: "Apr 2, 2025 04:00:00 EDT",
+		},
+		{
+			cellNames: [
+				"4/9",
+				"Policy Gradient Algorithms",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/Policy_Gradient_Algos_Notes.pdf")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
 		},
 
 		/**
