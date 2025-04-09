@@ -232,14 +232,15 @@ export class Lectures extends React.Component<LectureProps> {
 		},
 		{
 			cellNames: [
-				"4/2",
+				"4/2 - 4/9",
 				"Reinforcement Learning",
 				"R&N Chapter 3.5.2-3.7",
 				"Notes",
-				" ",
+				"More Notes",
 			],
 			cellNametoLinks: new Map<string, string>([
 				["Notes", require("./lecture_notes/rl.pdf")],
+				["More Notes", require("./lecture_notes/rl_notes.pdf")],
 			]),
 			autoReleaseDate: "Apr 2, 2025 04:00:00 EDT",
 		},
