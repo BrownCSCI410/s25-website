@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/s25-website/static/css/main.fbf93b6e.css",
-    "main.js": "/s25-website/static/js/main.7c0dc657.js",
+    "main.css": "/s25-website/static/css/main.c19392be.css",
+    "main.js": "/s25-website/static/js/main.31c5fce3.js",
     "static/js/453.9013924b.chunk.js": "/s25-website/static/js/453.9013924b.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -12,6 +12,7 @@
     "static/media/tiffney_aina.png": "/s25-website/static/media/tiffney_aina.6bd5234b69a632b149f6.png",
     "static/media/Jen.png": "/s25-website/static/media/Jen.361062452eddcb0e6bd8.png",
     "static/media/karina_liba.jpg": "/s25-website/static/media/karina_liba.f7186780893e85215638.jpg",
+    "static/media/Policy_Gradient_Algos_Notes.pdf": "/s25-website/static/media/Policy_Gradient_Algos_Notes.c58c7bd6299447d658df.pdf",
     "static/media/Shivshankar Prasad.jpg": "/s25-website/static/media/Shivshankar Prasad.6b68a61bce5b77847dd5.jpg",
     "static/media/squidgame_background.jpeg": "/s25-website/static/media/squidgame_background.7eade09a11ec12f91a63.jpeg",
     "static/media/Elliot_Photo.jpg": "/s25-website/static/media/Elliot_Photo.01297f62dd8062fc8d73.jpg",
@@ -42,12 +43,12 @@
     "static/media/mindy.jpg": "/s25-website/static/media/mindy.f9d797bb1827c488fb04.jpg",
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
-    "main.fbf93b6e.css.map": "/s25-website/static/css/main.fbf93b6e.css.map",
-    "main.7c0dc657.js.map": "/s25-website/static/js/main.7c0dc657.js.map",
+    "main.c19392be.css.map": "/s25-website/static/css/main.c19392be.css.map",
+    "main.31c5fce3.js.map": "/s25-website/static/js/main.31c5fce3.js.map",
     "453.9013924b.chunk.js.map": "/s25-website/static/js/453.9013924b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf93b6e.css",
-    "static/js/main.7c0dc657.js"
+    "static/css/main.c19392be.css",
+    "static/js/main.31c5fce3.js"
   ]
 }
