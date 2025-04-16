@@ -257,6 +257,45 @@ export class Lectures extends React.Component<LectureProps> {
 			]),
 			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
 		},
+		{
+			cellNames: [
+				"4/11",
+				"MCTS",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/MCTS.pdf")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
+		},
+		{
+			cellNames: [
+				"4/14",
+				"Policy Gradient Algorithms",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/MCTS_continued.pdf")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
+		},
+		{
+			cellNames: [
+				"4/16",
+				"PCA",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/PCA.pptx")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
+		},
 
 		/**
         { cellNames: ["2/24", "Naive Bayes", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
