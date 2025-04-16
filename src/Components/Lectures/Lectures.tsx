@@ -292,7 +292,7 @@ export class Lectures extends React.Component<LectureProps> {
 				"",
 			],
 			cellNametoLinks: new Map<string, string>([
-				["Notes", require("./slides/PCA.pptx")],
+				["Notes", require("./slides/PCA + K-means.pptx")],
 			]),
 			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
 		},
