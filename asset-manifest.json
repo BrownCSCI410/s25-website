@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/s25-website/static/css/main.c19392be.css",
-    "main.js": "/s25-website/static/js/main.d6b983fc.js",
+    "main.js": "/s25-website/static/js/main.7cbee403.js",
     "static/js/453.e5a7a467.chunk.js": "/s25-website/static/js/453.e5a7a467.chunk.js",
     "static/media/sarah_liao.jpg": "/s25-website/static/media/sarah_liao.93fa57d761a6aa81117e.jpg",
     "static/media/Torsten.jpg": "/s25-website/static/media/Torsten.39242110b2d202caad7f.jpg",
@@ -29,6 +29,7 @@
     "static/media/neural_nets.pdf": "/s25-website/static/media/neural_nets.06f308047ce64f82f8bb.pdf",
     "static/media/blind_search.pdf": "/s25-website/static/media/blind_search.c0e8c0df26a0cf1da9b3.pdf",
     "static/media/rl_notes.pdf": "/s25-website/static/media/rl_notes.8e8b1833f21ff92c20fe.pdf",
+    "static/media/CSCI_410_Final_Project_part_2.pdf": "/s25-website/static/media/CSCI_410_Final_Project_part_2.f63bfe4f7d566635456c.pdf",
     "static/media/Final_Project_Pt_1.pdf": "/s25-website/static/media/Final_Project_Pt_1.59f7d80a2c496f8c444e.pdf",
     "static/media/A-star Search.pdf": "/s25-website/static/media/A-star Search.57bed303c6f14f1d8025.pdf",
     "static/media/cnfs.pdf": "/s25-website/static/media/cnfs.fbf8b1ef95e4db54122d.pdf",
@@ -48,11 +49,11 @@
     "static/media/triangle_mouse.png": "/s25-website/static/media/triangle_mouse.1da924006a3ae08954e5.png",
     "index.html": "/s25-website/index.html",
     "main.c19392be.css.map": "/s25-website/static/css/main.c19392be.css.map",
-    "main.d6b983fc.js.map": "/s25-website/static/js/main.d6b983fc.js.map",
+    "main.7cbee403.js.map": "/s25-website/static/js/main.7cbee403.js.map",
     "453.e5a7a467.chunk.js.map": "/s25-website/static/js/453.e5a7a467.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c19392be.css",
-    "static/js/main.d6b983fc.js"
+    "static/js/main.7cbee403.js"
   ]
 }
