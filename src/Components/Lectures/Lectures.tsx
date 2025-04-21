@@ -296,6 +296,32 @@ export class Lectures extends React.Component<LectureProps> {
 			]),
 			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
 		},
+		{
+			cellNames: [
+				"4/18",
+				"K-Means",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/PCA + K-means.pptx")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
+		},
+		{
+			cellNames: [
+				"4/21",
+				"GMMs and The EM Algorithm",
+				"",
+				"Notes",
+				"",
+			],
+			cellNametoLinks: new Map<string, string>([
+				["Notes", require("./slides/GaussianMixtureModels.pptx")],
+			]),
+			autoReleaseDate: "Apr 9, 2025 04:00:00 EDT",
+		},
 
 		/**
         { cellNames: ["2/24", "Naive Bayes", "R&N Chapter 3.5.2-3.7", "Notes", " "], cellNametoLinks: new Map<string,string>([["Notes", "lecture_notes/informed_search.pdf"],["Pathfinding Visualizations", "https://qiao.github.io/PathFinding.js/visual/"]]) ,autoReleaseDate: "Mar 16, 2025 04:00:00 EDT" },
