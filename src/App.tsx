@@ -7,6 +7,7 @@ import { Labs } from './Components/Labs and Sections/Labs';
 import { Hours } from './Components/Hours/Hours';
 import { Resources } from './Components/Resources/Resources';
 import { Staff } from './Components/Staff/Staff';
+import { TournamentResults } from './Components/TournamentResults/TournamentResults';
 import './App.scss'
 
 
@@ -21,6 +22,7 @@ function App() {
       <Resources />
       <Hours />  
       <Staff />
+      <TournamentResults />
     </div>
   );
 }

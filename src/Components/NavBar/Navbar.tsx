@@ -31,7 +31,6 @@ export class Navbar extends React.Component<NavbarProps> {
         return (
             <div>
                 <nav className="nav-bar" id="navbar">
-
                     <button className="icon" onClick={this.toggleNavbar}>
                         &#9776;
                     </button>
@@ -42,6 +41,7 @@ export class Navbar extends React.Component<NavbarProps> {
                     <a className="nav-link" href="#resources" onClick={(e) => this.handleScroll(e, "resources")} target="_self">Resources</a>
                     <a className="nav-link" href="#hours" onClick={(e) => this.handleScroll(e, "hours")} target="_self">Hours</a>
                     <a className="nav-link" href="#staff" onClick={(e) => this.handleScroll(e, "staff")} target="_self">Staff</a>
+                    <a className="nav-link" href="#final" onClick={(e) => this.handleScroll(e, "Final Project Results")} target="_self">Tournament</a>
                 </nav>
             </div>
         );

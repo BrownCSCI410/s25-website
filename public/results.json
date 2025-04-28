@@ -1,0 +1,120 @@
+{
+    "tournament_id": "20240428_123456",
+    "board_size": 5,
+    "bots": {
+        "2259735": "Silly Goose Agent",
+        "3198650": "Funky Time",
+        "328271455": "MCTSAgent Object",
+        "328964243": "FinalAgent Object",
+        "328011679": "2"
+    },
+    "results": [
+        {
+            "black": "Funky Time",
+            "white": "FinalAgent Object",
+            "winner": "black",
+            "score": "(2, -2)",
+            "duration": 120.5,
+            "move_counts": 45,
+            "timestamp": "2024-04-28T12:00:00",
+            "board_size": 5
+        },
+        {
+            "black": "FinalAgent Object",
+            "white": "Funky Time",
+            "winner": "white",
+            "score": "(0, 0)",
+            "duration": 60.2,
+            "move_counts": 20,
+            "timestamp": "2024-04-28T12:05:00",
+            "board_size": 5
+        },
+        {
+            "black": "MCTSAgent Object",
+            "white": "2",
+            "winner": "white",
+            "score": "(-1, 1)",
+            "duration": 180.2,
+            "move_counts": 60,
+            "timestamp": "2024-04-28T12:10:00",
+            "board_size": 5
+        },
+        {
+            "black": "2",
+            "white": "MCTSAgent Object",
+            "winner": "black",
+            "score": "(0, 0)",
+            "duration": 45.3,
+            "move_counts": 15,
+            "timestamp": "2024-04-28T12:15:00",
+            "board_size": 5
+        },
+        {
+            "black": "Silly Goose Agent",
+            "white": "Funky Time",
+            "winner": "black",
+            "score": "(1, -1)",
+            "duration": 90.3,
+            "move_counts": 30,
+            "timestamp": "2024-04-28T12:20:00",
+            "board_size": 5
+        },
+        {
+            "black": "Funky Time",
+            "white": "Silly Goose Agent",
+            "winner": "white",
+            "score": "(0, 0)",
+            "duration": 50.1,
+            "move_counts": 25,
+            "timestamp": "2024-04-28T12:25:00",
+            "board_size": 5
+        },
+        {
+            "black": "FinalAgent Object",
+            "white": "MCTSAgent Object",
+            "winner": "black",
+            "score": "(2, -2)",
+            "duration": 150.7,
+            "move_counts": 55,
+            "timestamp": "2024-04-28T12:30:00",
+            "board_size": 5
+        },
+        {
+            "black": "MCTSAgent Object",
+            "white": "FinalAgent Object",
+            "winner": "white",
+            "score": "(0, 0)",
+            "duration": 40.5,
+            "move_counts": 18,
+            "timestamp": "2024-04-28T12:35:00",
+            "board_size": 5
+        },
+        {
+            "black": "2",
+            "white": "Silly Goose Agent",
+            "winner": "black",
+            "score": "(1, -1)",
+            "duration": 200.1,
+            "move_counts": 70,
+            "timestamp": "2024-04-28T12:40:00",
+            "board_size": 5
+        },
+        {
+            "black": "Silly Goose Agent",
+            "white": "2",
+            "winner": "white",
+            "score": "(0, 0)",
+            "duration": 55.3,
+            "move_counts": 22,
+            "timestamp": "2024-04-28T12:45:00",
+            "board_size": 5
+        }
+    ],
+    "final_ratings": {
+        "2259735": 1520,
+        "3198650": 1497,
+        "328271455": 1438,
+        "328964243": 1500,
+        "328011679": 1561
+    }
+}
