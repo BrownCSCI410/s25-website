@@ -22,7 +22,7 @@ export class TableSection extends React.Component<TableSectionProps> {
         let regRows: JSX.Element[] = []
 
         for(let i=0; i< this.props.rows.length; i++){
-            regRows.push(this.renderRow(this.props.rows[i]))
+            regRows.push(this.renderRow(this.props.rows[i], i))
         }
         
 
@@ -31,7 +31,7 @@ export class TableSection extends React.Component<TableSectionProps> {
 
                 <table>
                     <tbody>
-                    {this.renderRow()}
+                    {this.renderRow(undefined, 'header')}
                     {regRows}
                     </tbody>
 
@@ -42,20 +42,20 @@ export class TableSection extends React.Component<TableSectionProps> {
    
     }
 
-    renderRow(cells?: RowOptions) {
+    renderRow(cells?: RowOptions, key?: number | string) {
         let row: JSX.Element[] = [];
         
         if (cells){
             for (let i = 0; i < cells.cellNames.length; i++) { //rendering the normal rows
                 const link = cells.cellNametoLinks.get(cells.cellNames[i]);
                 const data = link ? (
-                    <td key={i}>
+                    <td key={`${key}-cell-${i}`}>
                     <a href={link} target="_blank" rel="noopener noreferrer">
                       {cells.cellNames[i]}
                     </a>
                   </td>
                 ) : (
-                  <td key={i}>{cells.cellNames[i]}</td>
+                  <td key={`${key}-cell-${i}`}>{cells.cellNames[i]}</td>
                 );
                 row.push(data);
             }
@@ -63,13 +63,13 @@ export class TableSection extends React.Component<TableSectionProps> {
 
         else{
             for (let i=0; i < this.props.header.length; i++){ //rendering the headers 
-                row.push(<th key={i}> {this.props.header[i]}</th>)             
+                row.push(<th key={`header-${i}`}> {this.props.header[i]}</th>)             
             }
 
         }
 
         return (
-            <tr>
+            <tr key={key}>
                 {row}
             </tr>
         );
