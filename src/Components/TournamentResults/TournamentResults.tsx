@@ -58,10 +58,17 @@ export const TournamentResults: React.FC = () => {
 
         // Calculate wins and losses
         data.results.forEach((result: TournamentResult) => {
-          const blackBot = Object.entries(data.bots).find(([_, name]) => name === result.black)?.[0];
-          const whiteBot = Object.entries(data.bots).find(([_, name]) => name === result.white)?.[0];
+          console.log('Processing match:', result);
+          
+          // Find bot IDs by looking for the bot whose name matches the black/white player
+          const blackBotEntry = Object.entries(data.bots).find(([_, name]) => result.black === name);
+          const whiteBotEntry = Object.entries(data.bots).find(([_, name]) => result.white === name);
+          
+          const blackBotId = blackBotEntry?.[0];
+          const whiteBotId = whiteBotEntry?.[0];
+          
 
-          if (blackBot && whiteBot) {
+          if (blackBotId && whiteBotId) {
             // Parse the score string from format "(x.0, y.0)" to numbers
             const [blackScore, whiteScore] = result.score
               .replace('(', '')
@@ -71,22 +78,21 @@ export const TournamentResults: React.FC = () => {
             
             if (blackScore === 0 && whiteScore === 0) {
               // If score is (0.0, 0.0), both bots won one game
-              botStats[blackBot].wins++;
-              botStats[whiteBot].wins++;
+              botStats[blackBotId].wins++;
+              botStats[whiteBotId].wins++;
             } else {
-              // For (2.0, -2.0) or (-2.0, 2.0) scores, only one bot won both games
+              // For (2.0, -2.0) or (-2.0, 2.0) scores, one bot won
               if (blackScore > whiteScore) {
-                botStats[blackBot].wins++;
-                botStats[whiteBot].losses++;
+                botStats[blackBotId].wins++;
+                botStats[whiteBotId].losses++;
               } else if (whiteScore > blackScore) {
-                botStats[whiteBot].wins++;
-                botStats[blackBot].losses++;
+                botStats[whiteBotId].wins++;
+                botStats[blackBotId].losses++;
               }
             }
           }
         });
 
-        console.log('Processed bot stats:', botStats); // Debug log
         setBots(Object.values(botStats));
         setLoading(false);
       })
