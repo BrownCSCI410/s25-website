@@ -62,12 +62,22 @@ export const TournamentResults: React.FC = () => {
           const whiteBot = Object.entries(data.bots).find(([_, name]) => name === result.white)?.[0];
 
           if (blackBot && whiteBot) {
-            if (result.winner === 'black') {
+            // Parse the score string into numbers
+            const [blackScore, whiteScore] = result.score.split(',').map(Number);
+            
+            if (blackScore === 0 && whiteScore === 0) {
+              // If score is (0,0), both bots won one game
               botStats[blackBot].wins++;
-              botStats[whiteBot].losses++;
-            } else if (result.winner === 'white') {
               botStats[whiteBot].wins++;
-              botStats[blackBot].losses++;
+            } else {
+              // For (2,-2) or (-2,2) scores, only one bot won both games
+              if (blackScore > whiteScore) {
+                botStats[blackBot].wins += 2;
+                botStats[whiteBot].losses += 2;
+              } else if (whiteScore > blackScore) {
+                botStats[whiteBot].wins += 2;
+                botStats[blackBot].losses += 2;
+              }
             }
           }
         });
