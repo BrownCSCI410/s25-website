@@ -45,31 +45,47 @@ export const TournamentResults: React.FC = () => {
         // Calculate wins and losses for each bot
         const botStats: { [key: string]: Bot } = {};
         
+        // Create lookup maps for bots by ID and by name
+        const botIdByName: { [key: string]: string } = {};
+        
         // Initialize bot stats
         Object.entries(data.bots).forEach(([id, name]) => {
+          const botName = String(name);
           botStats[id] = {
             id,
-            name: name as string,
+            name: botName,
             wins: 0,
             losses: 0,
             elo: data.final_ratings[id]
           };
+          
+          // Create a map from bot name to bot ID for easy lookup
+          botIdByName[botName] = id;
         });
+        
+        console.log("Bot ID by Name lookup:", botIdByName);
 
         // Calculate wins and losses
-        data.results.forEach((result: TournamentResult) => {
-          // Find the bot IDs for this match
-          const blackBotEntry = Object.entries(data.bots).find(([_, name]) => name === result.black);
-          const whiteBotEntry = Object.entries(data.bots).find(([_, name]) => name === result.white);
+        data.results.forEach((result: TournamentResult, index: number) => {
+          console.log(`Match ${index}: ${result.black} vs ${result.white}`);
           
-          if (!blackBotEntry || !whiteBotEntry) return;
+          // Get bot IDs using the name lookup
+          const blackBotId = botIdByName[result.black];
+          const whiteBotId = botIdByName[result.white];
           
-          const blackBotId = blackBotEntry[0];
-          const whiteBotId = whiteBotEntry[0];
+          console.log(`Looking up IDs - Black: ${blackBotId}, White: ${whiteBotId}`);
           
-          // Parse winner from the score string: "(x.0, y.0)"
+          if (!blackBotId || !whiteBotId) {
+            console.log("Could not find both bots, skipping");
+            return;
+          }
+          
+          // Parse score from the score string: "(x.0, y.0)"
           const scoreMatch = result.score.match(/\((-?\d+\.\d+),\s*(-?\d+\.\d+)\)/);
-          if (!scoreMatch) return;
+          if (!scoreMatch) {
+            console.log(`Could not parse score: ${result.score}`);
+            return;
+          }
           
           const blackScore = parseFloat(scoreMatch[1]);
           const whiteScore = parseFloat(scoreMatch[2]);
@@ -90,6 +106,7 @@ export const TournamentResults: React.FC = () => {
           }
         });
 
+        console.log("Final bot stats:", botStats);
         setBots(Object.values(botStats));
         setLoading(false);
       })
