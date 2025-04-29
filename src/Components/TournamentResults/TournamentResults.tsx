@@ -58,38 +58,35 @@ export const TournamentResults: React.FC = () => {
 
         // Calculate wins and losses
         data.results.forEach((result: TournamentResult) => {
-          console.log('Processing match:', result);
+          // Find the bot IDs for this match
+          const blackBotEntry = Object.entries(data.bots).find(([_, name]) => name === result.black);
+          const whiteBotEntry = Object.entries(data.bots).find(([_, name]) => name === result.white);
           
-          // Find bot IDs by looking for the bot whose name matches the black/white player
-          const blackBotEntry = Object.entries(data.bots).find(([_, name]) => result.black === name);
-          const whiteBotEntry = Object.entries(data.bots).find(([_, name]) => result.white === name);
+          if (!blackBotEntry || !whiteBotEntry) return;
           
-          const blackBotId = blackBotEntry?.[0];
-          const whiteBotId = whiteBotEntry?.[0];
+          const blackBotId = blackBotEntry[0];
+          const whiteBotId = whiteBotEntry[0];
           
-
-          if (blackBotId && whiteBotId) {
-            // Parse the score string from format "(x.0, y.0)" to numbers
-            const [blackScore, whiteScore] = result.score
-              .replace('(', '')
-              .replace(')', '')
-              .split(',')
-              .map(s => parseFloat(s.trim()));
-            
-            if (blackScore === 0 && whiteScore === 0) {
-              // If score is (0.0, 0.0), both bots won one game
-              botStats[blackBotId].wins++;
-              botStats[whiteBotId].wins++;
-            } else {
-              // For (2.0, -2.0) or (-2.0, 2.0) scores, one bot won
-              if (blackScore > whiteScore) {
-                botStats[blackBotId].wins++;
-                botStats[whiteBotId].losses++;
-              } else if (whiteScore > blackScore) {
-                botStats[whiteBotId].wins++;
-                botStats[blackBotId].losses++;
-              }
-            }
+          // Parse winner from the score string: "(x.0, y.0)"
+          const scoreMatch = result.score.match(/\((-?\d+\.\d+),\s*(-?\d+\.\d+)\)/);
+          if (!scoreMatch) return;
+          
+          const blackScore = parseFloat(scoreMatch[1]);
+          const whiteScore = parseFloat(scoreMatch[2]);
+          
+          // Update the win/loss counts based on score
+          if (blackScore === 0 && whiteScore === 0) {
+            // Draw means both bots won one game each
+            botStats[blackBotId].wins += 1;
+            botStats[whiteBotId].wins += 1;
+          } else if (blackScore > whiteScore) {
+            // Black won
+            botStats[blackBotId].wins += 1;
+            botStats[whiteBotId].losses += 1;
+          } else if (whiteScore > blackScore) {
+            // White won
+            botStats[whiteBotId].wins += 1;
+            botStats[blackBotId].losses += 1;
           }
         });
 
