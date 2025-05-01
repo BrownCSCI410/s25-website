@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './TournamentResults.scss';
+import { tournamentData } from './resultsData';
+
 
 interface Bot {
   id: string;
