@@ -1,49 +1,78 @@
 import React, { useState, useEffect } from 'react';
 import './TournamentResults.scss';
-import { additionalResults, agentNames, eloRatings } from './results';
+import { tournamentData } from './resultsData';
+
+// Define the data structure based on the actual JSON format
+interface ResultsData {
+  ratings: {
+    [id: string]: {
+      rating: number;
+      games: number;
+      wins: number;
+      losses: number;
+      name: string;
+    }
+  };
+  metadata: {
+    k_factor: number;
+    default_rating: number;
+    num_games: number;
+    num_matches: number;
+    num_agents: number;
+    timestamp: string;
+  };
+  agent_names: {
+    [id: string]: string;
+  };
+}
 
 interface Bot {
   id: string;
   name: string;
   wins: number;
   losses: number;
-  draws: number;
-  elo: number;
+  games: number;
+  rating: number;
   winRate: number;
   record: string;
 }
 
-type SortField = 'name' | 'id' | 'wins' | 'losses' | 'elo' | 'winRate';
+type SortField = 'name' | 'id' | 'wins' | 'losses' | 'rating' | 'winRate';
 type SortDirection = 'asc' | 'desc';
 
 export const TournamentResults: React.FC = () => {
   const [bots, setBots] = useState<Bot[]>([]);
   const [loading, setLoading] = useState(true);
-  const [sortField, setSortField] = useState<SortField>('elo');
+  const [error, setError] = useState<string | null>(null);
+  const [sortField, setSortField] = useState<SortField>('rating');
   const [sortDirection, setSortDirection] = useState<SortDirection>('desc');
 
   useEffect(() => {
-    // Process the data from our local files
-    const processedBots: Bot[] = Object.entries(additionalResults).map(([id, data]) => {
-      const wins = data.wins;
-      const losses = data.losses;
-      const draws = data.draws;
-      const totalGames = wins + losses + draws;
+    try {
+      // Using the imported data directly instead of fetching
+      const data = tournamentData;
       
-      return {
-        id,
-        name: agentNames[id as keyof typeof agentNames] || `Unknown Bot ${id}`,
-        wins,
-        losses,
-        draws,
-        elo: eloRatings[id as keyof typeof eloRatings] || 0,
-        winRate: totalGames > 0 ? (wins / totalGames) * 100 : 0,
-        record: `${wins}-${losses}-${draws}`
-      };
-    });
+      // Process the data
+      const processedBots: Bot[] = Object.entries(data.ratings).map(([id, stats]) => {
+        return {
+          id,
+          name: stats.name || (data.agent_names[id as keyof typeof data.agent_names] || `Unknown Bot ${id}`),
+          wins: stats.wins,
+          losses: stats.losses,
+          games: stats.games,
+          rating: Math.round(stats.rating), // Round to integer for display
+          winRate: stats.games > 0 ? (stats.wins / stats.games) * 100 : 0,
+          record: `${stats.wins}-${stats.losses}-0` // Assuming no draws
+        };
+      });
 
-    setBots(processedBots);
-    setLoading(false);
+      setBots(processedBots);
+      setLoading(false);
+    } catch (err) {
+      console.error('Error processing tournament results:', err);
+      setError(err instanceof Error ? err.message : 'Unknown error');
+      setLoading(false);
+    }
   }, []);
 
   const handleSort = (field: SortField) => {
@@ -61,8 +90,8 @@ export const TournamentResults: React.FC = () => {
       return multiplier * a.name.localeCompare(b.name);
     } else if (sortField === 'id') {
       return multiplier * a.id.localeCompare(b.id);
-    } else if (sortField === 'elo') {
-      return multiplier * (a.elo - b.elo);
+    } else if (sortField === 'rating') {
+      return multiplier * (a.rating - b.rating);
     } else if (sortField === 'winRate') {
       return multiplier * (a.winRate - b.winRate);
     } else {
@@ -74,9 +103,13 @@ export const TournamentResults: React.FC = () => {
     return <div className="tournament-results">Loading tournament results...</div>;
   }
 
+  if (error) {
+    return <div className="tournament-results">Error: {error}</div>;
+  }
+
   return (
     <div id="Final Project Results" className="tournament-results">
-      <h2>Final Project Tournament</h2>
+      <h2>Final Project Tournament Results</h2>
       {bots.length === 0 ? (
         <p>No tournament results available.</p>
       ) : (
@@ -89,8 +122,8 @@ export const TournamentResults: React.FC = () => {
               <th onClick={() => handleSort('id')} className="sortable">
                 ID {sortField === 'id' && (sortDirection === 'asc' ? '↑' : '↓')}
               </th>
-              <th onClick={() => handleSort('elo')} className="sortable">
-                ELO Rating {sortField === 'elo' && (sortDirection === 'asc' ? '↑' : '↓')}
+              <th onClick={() => handleSort('rating')} className="sortable">
+                ELO Rating {sortField === 'rating' && (sortDirection === 'asc' ? '↑' : '↓')}
               </th>
               <th onClick={() => handleSort('wins')} className="sortable">
                 W-L-D {sortField === 'wins' && (sortDirection === 'asc' ? '↑' : '↓')}
@@ -105,7 +138,7 @@ export const TournamentResults: React.FC = () => {
               <tr key={`${bot.id}-${bot.name}`}>
                 <td>{bot.name}</td>
                 <td>{bot.id}</td>
-                <td>{bot.elo}</td>
+                <td>{bot.rating}</td>
                 <td>{bot.record}</td>
                 <td>{bot.winRate.toFixed(1)}%</td>
               </tr>
