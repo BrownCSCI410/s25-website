@@ -1,30 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './TournamentResults.scss';
-import { tournamentData } from './resultsData';
-
-// Define the data structure based on the actual JSON format
-interface ResultsData {
-  ratings: {
-    [id: string]: {
-      rating: number;
-      games: number;
-      wins: number;
-      losses: number;
-      name: string;
-    }
-  };
-  metadata: {
-    k_factor: number;
-    default_rating: number;
-    num_games: number;
-    num_matches: number;
-    num_agents: number;
-    timestamp: string;
-  };
-  agent_names: {
-    [id: string]: string;
-  };
-}
 
 interface Bot {
   id: string;
