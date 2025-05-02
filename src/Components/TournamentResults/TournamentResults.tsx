@@ -40,7 +40,6 @@ export const TournamentResults: React.FC = () => {
         
         // Parse CSV data
         const rows = csvText.split('\n');
-        const headers = rows[0].split(',');
         
         // Skip header row (index 0) and parse data rows
         const parsedBots: Bot[] = rows.slice(1)
