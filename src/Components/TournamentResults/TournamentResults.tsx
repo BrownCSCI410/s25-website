@@ -1,20 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import './TournamentResults.scss';
 
+// Define the structure of our JSON data
+interface ResultsData {
+  ratings: {
+    [id: string]: {
+      rating: number;
+      games: number;
+      wins: number;
+      losses: number;
+      name: string;
+    }
+  };
+  agent_names: {
+    [id: string]: string;
+  };
+}
+
 interface Bot {
   id: string;
   name: string;
   wins: number;
   losses: number;
-  errors: number;
-  games: number;
-  winRate: number;
-  nonErrorWinRate: number;
   rating: number;
-  record: string;
 }
 
-type SortField = 'name' | 'id' | 'wins' | 'losses' | 'rating' | 'winRate' | 'nonErrorWinRate';
+type SortField = 'name' | 'id' | 'wins' | 'losses' | 'rating';
 type SortDirection = 'asc' | 'desc';
 
 export const TournamentResults: React.FC = () => {
@@ -27,61 +38,34 @@ export const TournamentResults: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Determine the path based on environment
+        // Determine the correct path based on environment
         const basePath = process.env.PUBLIC_URL || '';
-        // Fetch the CSV file
-        const response = await fetch(`${basePath}/tournament_elo_rankings.csv`);
+        
+        // Fetch the JSON file
+        const response = await fetch(`${basePath}/results.json`);
         
         if (!response.ok) {
-          throw new Error(`Failed to fetch CSV: ${response.statusText}`);
+          throw new Error(`Failed to fetch results: ${response.statusText}`);
         }
         
-        const csvText = await response.text();
+        // Parse the JSON data
+        const data: ResultsData = await response.json();
         
-        // Parse CSV data
-        const rows = csvText.split('\n');
-        
-        // Skip header row (index 0) and parse data rows
-        const parsedBots: Bot[] = rows.slice(1)
-          .filter(row => row.trim() !== '') // Skip empty rows
-          .map(row => {
-            const columns = row.split(',');
-            
-            // Extract data from CSV columns
-            const name = columns[0];
-            const id = columns[1];
-            const wins = parseInt(columns[2], 10);
-            const losses = parseInt(columns[3], 10);
-            const errors = parseInt(columns[4], 10);
-            const games = parseInt(columns[5], 10);
-            
-            // Parse percentage strings to numbers (remove % sign and convert to number)
-            const winRateStr = columns[6];
-            const nonErrorWinRateStr = columns[7];
-            const winRate = parseFloat(winRateStr.replace('%', ''));
-            const nonErrorWinRate = parseFloat(nonErrorWinRateStr.replace('%', ''));
-            
-            const rating = parseInt(columns[8], 10);
-            const record = `${wins}-${losses}-${errors}`;
-            
-            return {
-              id,
-              name,
-              wins,
-              losses,
-              errors,
-              games,
-              winRate,
-              nonErrorWinRate,
-              rating,
-              record
-            };
-          });
-        
-        setBots(parsedBots);
+        // Process the data
+        const processedBots: Bot[] = Object.entries(data.ratings).map(([id, stats]) => {
+          return {
+            id,
+            name: stats.name || data.agent_names[id as keyof typeof data.agent_names] || `Unknown Bot ${id}`,
+            wins: stats.wins,
+            losses: stats.losses,
+            rating: Math.round(stats.rating) // Round to integer for display
+          };
+        });
+
+        setBots(processedBots);
         setLoading(false);
       } catch (err) {
-        console.error('Error processing tournament results:', err);
+        console.error('Error loading tournament results:', err);
         setError(err instanceof Error ? err.message : 'Unknown error');
         setLoading(false);
       }
@@ -105,12 +89,6 @@ export const TournamentResults: React.FC = () => {
       return multiplier * a.name.localeCompare(b.name);
     } else if (sortField === 'id') {
       return multiplier * a.id.localeCompare(b.id);
-    } else if (sortField === 'rating') {
-      return multiplier * (a.rating - b.rating);
-    } else if (sortField === 'winRate') {
-      return multiplier * (a.winRate - b.winRate);
-    } else if (sortField === 'nonErrorWinRate') {
-      return multiplier * (a.nonErrorWinRate - b.nonErrorWinRate);
     } else {
       return multiplier * (a[sortField] - b[sortField]);
     }
