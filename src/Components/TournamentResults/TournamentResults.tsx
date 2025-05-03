@@ -107,8 +107,6 @@ export const TournamentResults: React.FC = () => {
   return (
     <div id="Final Project Results" className="tournament-results">
       <h2>Final Project Tournament Results</h2>
-      <p>Tournament results are temporarily unavailable. Check back soon!</p>
-      {/* Table is temporarily hidden
       {bots.length === 0 ? (
         <p>No tournament results available.</p>
       ) : (
@@ -145,7 +143,6 @@ export const TournamentResults: React.FC = () => {
           </tbody>
         </table>
       )}
-      */}
     </div>
   );
 }; 
