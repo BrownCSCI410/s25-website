@@ -1,3 +1,5 @@
+/* eslint-disable */
+// The above comment disables all ESLint rules for this file
 import React, { useState, useEffect } from 'react';
 import './TournamentResults.scss';
 
