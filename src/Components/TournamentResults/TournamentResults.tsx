@@ -113,6 +113,7 @@ export const TournamentResults: React.FC = () => {
         <table>
           <thead>
             <tr>
+              <th className="rank-column">#</th>
               <th onClick={() => handleSort('name')} className="sortable">
                 Agent Name {sortField === 'name' && (sortDirection === 'asc' ? '↑' : '↓')}
               </th>
@@ -133,6 +134,7 @@ export const TournamentResults: React.FC = () => {
           <tbody>
             {sortedBots.map((bot, index) => (
               <tr key={`${bot.id}-${bot.name}`}>
+                <td>{index + 1}</td>
                 <td>{bot.name}</td>
                 <td>{bot.id}</td>
                 <td>{bot.wins}</td>
