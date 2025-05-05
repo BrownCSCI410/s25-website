@@ -1,374 +1,494 @@
 {
   "ratings": {
-    "3207461": {
-      "rating": 1469.2007177012342,
-      "games": 88,
-      "wins": 43,
-      "losses": 45,
-      "name": "OK Agent"
-    },
-    "328011679": {
-      "rating": 1494.1784536948962,
-      "games": 88,
-      "wins": 44,
-      "losses": 44,
-      "name": "[agent1_module.MCTSAgent object at 0x177f5ffd0]"
-    },
-    "3135635": {
-      "rating": 1565.3065240160627,
-      "games": 88,
-      "wins": 50,
-      "losses": 38,
-      "name": "MAP YAY BOT"
-    },
-    "330096190": {
-      "rating": 1638.3699129904103,
-      "games": 88,
-      "wins": 65,
-      "losses": 23,
-      "name": "~Final~"
-    },
-    "329083655": {
-      "rating": 1273.2771839812456,
-      "games": 88,
-      "wins": 14,
-      "losses": 74,
-      "name": "Final Agent, can pass=False"
-    },
-    "330001603": {
-      "rating": 1690.8198946153045,
-      "games": 88,
-      "wins": 68,
-      "losses": 20,
-      "name": "clean agent bedtime"
-    },
-    "330897246": {
-      "rating": 1515.4087554153984,
-      "games": 88,
-      "wins": 45,
-      "losses": 43,
-      "name": "finalagent(k=50, d=7, c=1.00)"
-    },
-    "328964243": {
-      "rating": 1620.0006798564873,
-      "games": 88,
-      "wins": 62,
-      "losses": 26,
-      "name": "Silly Goose Agent"
-    },
-    "329995931": {
-      "rating": 1325.6287947709882,
-      "games": 88,
-      "wins": 24,
-      "losses": 64,
-      "name": "MCTS"
-    },
-    "330694942": {
-      "rating": 1374.004238425003,
-      "games": 88,
-      "wins": 25,
-      "losses": 63,
-      "name": "MCTS"
-    },
-    "330122352": {
-      "rating": 1699.3288084373141,
-      "games": 88,
-      "wins": 70,
-      "losses": 18,
-      "name": "AZP Parllel MCTS"
-    },
-    "330993513": {
-      "rating": 1432.658106440485,
-      "games": 88,
-      "wins": 31,
-      "losses": 57,
-      "name": "MCTS"
-    },
-    "329350026": {
-      "rating": 1445.7199623346057,
-      "games": 88,
-      "wins": 35,
-      "losses": 53,
-      "name": "Smart Agent"
-    },
-    "329730440": {
-      "rating": 1681.5023135209656,
-      "games": 88,
-      "wins": 67,
-      "losses": 21,
-      "name": "Hawk 2 v5"
-    },
-    "329635623": {
-      "rating": 1536.6315584991742,
-      "games": 88,
-      "wins": 50,
-      "losses": 38,
-      "name": "MCTS ON ROIDS"
-    },
-    "330505447": {
-      "rating": 1565.0698873775798,
-      "games": 88,
-      "wins": 54,
-      "losses": 34,
-      "name": "Custom Agent 42.2"
-    },
-    "329817259": {
-      "rating": 1732.271881063528,
-      "games": 88,
-      "wins": 75,
-      "losses": 13,
-      "name": "MCTSProMax3.0MeowMeow:3 only for $5.99/month"
-    },
-    "1274548": {
-      "rating": 1648.1516689852206,
-      "games": 88,
-      "wins": 63,
-      "losses": 25,
-      "name": "Final Agent hehe :)"
-    },
-    "330848142": {
-      "rating": 1199.3291472776468,
-      "games": 88,
-      "wins": 6,
-      "losses": 82,
-      "name": "Hybrid MCTS + Pruned Rollouts + Early Term"
-    },
-    "329366470": {
-      "rating": 1251.5660151782404,
-      "games": 88,
-      "wins": 10,
-      "losses": 78,
-      "name": "Opening book + transposition table + better rollout MCTS"
-    },
-    "331007353": {
-      "rating": 1517.2177963391043,
-      "games": 88,
-      "wins": 49,
-      "losses": 39,
-      "name": "Improved_Agent"
-    },
-    "330976602": {
-      "rating": 1688.0800911930844,
-      "games": 88,
-      "wins": 68,
-      "losses": 20,
-      "name": "idab"
-    },
-    "330647708": {
-      "rating": 1217.9578783987417,
-      "games": 88,
-      "wins": 9,
-      "losses": 79,
-      "name": "ImprovedMCTSAgent"
-    },
-    "329747787": {
-      "rating": 1429.3435099402154,
-      "games": 88,
-      "wins": 31,
-      "losses": 57,
-      "name": "Taiwo"
-    },
-    "328271455": {
-      "rating": 1580.2895572808493,
-      "games": 88,
-      "wins": 59,
-      "losses": 29,
-      "name": "G.2"
-    },
-    "330472995": {
-      "rating": 1618.0720407935098,
-      "games": 88,
-      "wins": 58,
-      "losses": 30,
-      "name": "Meowgent"
-    },
-    "3198650": {
-      "rating": 1621.4301947426154,
-      "games": 88,
-      "wins": 62,
-      "losses": 26,
-      "name": "Funky Time"
-    },
-    "330975559": {
-      "rating": 1650.408994175828,
-      "games": 88,
-      "wins": 62,
-      "losses": 26,
-      "name": "MCTS2ElectricBoogaloo"
-    },
-    "3199411": {
-      "rating": 1692.2758061295071,
-      "games": 88,
-      "wins": 72,
-      "losses": 16,
-      "name": "hage id ob 1; co 6; ft-w"
-    },
-    "330871689": {
-      "rating": 1382.8099868290706,
-      "games": 88,
-      "wins": 26,
-      "losses": 62,
-      "name": "muahhahagent"
-    },
-    "330470711": {
-      "rating": 1289.397551657219,
-      "games": 88,
-      "wins": 18,
-      "losses": 70,
-      "name": "HybriMind"
-    },
-    "330929385": {
-      "rating": 1716.1286541228812,
-      "games": 88,
-      "wins": 67,
-      "losses": 21,
-      "name": "FinalAgent"
-    },
-    "329841275": {
-      "rating": 1594.9510481572306,
-      "games": 88,
-      "wins": 60,
-      "losses": 28,
-      "name": "Hunter Bidens Laptop"
-    },
-    "329291116": {
-      "rating": 1326.8649200798202,
-      "games": 88,
-      "wins": 21,
-      "losses": 67,
-      "name": "TranspositionFlexibleAgent(tt=100000,pf=0.75)"
-    },
-    "3135641": {
-      "rating": 1623.7170855664408,
-      "games": 88,
-      "wins": 57,
-      "losses": 31,
-      "name": "Lamine Yamal"
-    },
-    "330325440": {
-      "rating": 1514.2602038309399,
-      "games": 88,
-      "wins": 45,
-      "losses": 43,
-      "name": "final bot"
-    },
-    "330543349": {
-      "rating": 1646.427290771258,
-      "games": 88,
-      "wins": 65,
-      "losses": 23,
-      "name": "MCTS+PURE"
-    },
-    "329500132": {
-      "rating": 1271.091207822084,
-      "games": 88,
-      "wins": 12,
-      "losses": 76,
-      "name": "LeAgent"
-    },
-    "329504922": {
-      "rating": 1595.944905989464,
-      "games": 88,
-      "wins": 58,
-      "losses": 30,
-      "name": "IterativeDeepening + MCTS Value Net"
-    },
-    "330500657": {
-      "rating": 1614.29956492197,
-      "games": 88,
-      "wins": 62,
-      "losses": 26,
-      "name": "KingYonams"
-    },
-    "330753289": {
-      "rating": 1189.8252966903462,
-      "games": 88,
-      "wins": 6,
-      "losses": 82,
-      "name": "MCTS2"
-    },
-    "3198611": {
-      "rating": 1449.416215883225,
-      "games": 88,
-      "wins": 29,
-      "losses": 59,
-      "name": "[agent1_module.MCTSAgent object at 0x178057fd0]"
-    },
-    "3166202": {
-      "rating": 1457.8896474340443,
-      "games": 88,
-      "wins": 39,
-      "losses": 49,
+    "3191294": {
+      "rating": 1469.4280669797133,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
       "name": "MCTS"
     },
     "331011269": {
-      "rating": 1450.8178979651898,
-      "games": 88,
-      "wins": 38,
-      "losses": 50,
-      "name": "AlphaBeta w/ depth 3 + Learned Heuristic"
+      "rating": 1487.1669515966707,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "Hybrid(IDS \u2192 MCTS \u2192 AlphaBeta)"
+    },
+    "330454017": {
+      "rating": 1486.0082031144436,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "FinalPart3Agent"
+    },
+    "331072114": {
+      "rating": 1501.043805376197,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Bolero"
+    },
+    "330694942": {
+      "rating": 1471.5269274957293,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "is the leaderboard working?"
+    },
+    "331064407": {
+      "rating": 1518.7028803341632,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "Friedrick"
+    },
+    "329817259": {
+      "rating": 1518.7532914256383,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "MCTSProMax3.0MeowMeow:3 only for $5.99/month"
+    },
+    "329995931": {
+      "rating": 1486.5173090882843,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "MCTS"
+    },
+    "2259735": {
+      "rating": 1577.1851401149227,
+      "games": 24,
+      "wins": 18,
+      "losses": 6,
+      "name": "Silly Goose Agent \ud80c\udd6d"
+    },
+    "328011679": {
+      "rating": 1472.1975074155082,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "[agent1_module.MCTSAgent object at 0x16c25ba00]"
+    },
+    "330505447": {
+      "rating": 1502.3923700502821,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "Custom Agent 42.2"
+    },
+    "329500132": {
+      "rating": 1472.314998483869,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "LeAgent"
+    },
+    "331155514": {
+      "rating": 1503.5198422125338,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "MCTS"
+    },
+    "331137504": {
+      "rating": 1470.9165668525138,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "MCTS"
+    },
+    "329730440": {
+      "rating": 1521.8808021450545,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Hawk 2 v6"
+    },
+    "1274548": {
+      "rating": 1574.1826484100513,
+      "games": 118,
+      "wins": 72,
+      "losses": 46,
+      "name": "Final Agent hehe :)"
+    },
+    "330543349": {
+      "rating": 1489.039979073535,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "MCTS+PURE"
+    },
+    "330753289": {
+      "rating": 1472.052067585482,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "STAWPPPP"
+    },
+    "331007353": {
+      "rating": 1533.71515272455,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Improved_Agent"
+    },
+    "328271455": {
+      "rating": 1501.9067202395122,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "G.2"
+    },
+    "329366470": {
+      "rating": 1486.9924541825355,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Opening book + transposition table + better rollout MCTS"
+    },
+    "331074325": {
+      "rating": 1484.995931703785,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "My Agent"
+    },
+    "330470711": {
+      "rating": 1485.9187511780483,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "HybriMind"
     },
     "330795023": {
-      "rating": 1202.6581487035714,
-      "games": 88,
-      "wins": 6,
-      "losses": 82,
-      "name": "GreedyAgent + Simple Heuristic"
+      "rating": 1487.8897474875591,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "GreedyAgent + Learned Heuristic"
+    },
+    "330103170": {
+      "rating": 1501.433913041867,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Mungnay2"
+    },
+    "330848142": {
+      "rating": 1488.409866098172,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Opening Book MCTS"
+    },
+    "3198650": {
+      "rating": 1501.5443543213069,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "Funky Time"
+    },
+    "330975559": {
+      "rating": 1534.1585475778422,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "MCTS2ElectricBoogaloo"
+    },
+    "331133363": {
+      "rating": 1485.6819469430504,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "OptimizedHybridAgent w/ TT"
+    },
+    "331045118": {
+      "rating": 1502.8292785320323,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Shin Jinseos Father"
+    },
+    "3135635": {
+      "rating": 1514.7351629119503,
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "name": "MAP YAY BOT"
+    },
+    "331064857": {
+      "rating": 1517.859303510959,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "AgentLightspark"
+    },
+    "329747787": {
+      "rating": 1518.1721306856316,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Kehinde"
+    },
+    "330122352": {
+      "rating": 1532.6677990311473,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "AZP Parallel MCTS"
+    },
+    "3207461": {
+      "rating": 1470.4572875752806,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "OK Agent"
+    },
+    "329504922": {
+      "rating": 1503.288872418018,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "IterativeDeepening + MCTS Value Net"
+    },
+    "331027848": {
+      "rating": 1487.6942918912532,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "bro"
+    },
+    "330472995": {
+      "rating": 1519.0746068130875,
+      "games": 8,
+      "wins": 5,
+      "losses": 3,
+      "name": "Meowgent"
+    },
+    "3166202": {
+      "rating": 1484.7612715430419,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "MCTS"
+    },
+    "330871689": {
+      "rating": 1520.8983928993503,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "muahhahagent"
+    },
+    "330096190": {
+      "rating": 1518.2635530981806,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "~Final~"
+    },
+    "329083655": {
+      "rating": 1501.820103750206,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Final Agent V :)"
+    },
+    "330929385": {
+      "rating": 1519.0885568501853,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "FinalAgent"
+    },
+    "329635623": {
+      "rating": 1505.989480835629,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "MCTS ON ROIDS"
+    },
+    "330647708": {
+      "rating": 1470.096159809096,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "MegaAgent MCTS"
+    },
+    "329841275": {
+      "rating": 1486.6412169496803,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "Hunter Bidens Laptop"
+    },
+    "330993513": {
+      "rating": 1503.3556291880004,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "SigmaGo"
+    },
+    "3199411": {
+      "rating": 1517.4539558914344,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "hage id ob 1; co 6; ft-w"
+    },
+    "329291116": {
+      "rating": 1485.7373209604941,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "TranspositionFlexibleAgent(tt=100000,pf=0.75)"
+    },
+    "330897246": {
+      "rating": 1504.0109175304628,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "finalagent"
+    },
+    "3203847": {
+      "rating": 1484.373913068083,
+      "games": 8,
+      "wins": 3,
+      "losses": 5,
+      "name": "YogurtSlayer2727"
+    },
+    "331133475": {
+      "rating": 1486.3308527766549,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "IterativeDeepeningLearned + Learned Heuristic"
+    },
+    "330976602": {
+      "rating": 1503.5098209977339,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "idab"
+    },
+    "330001603": {
+      "rating": 1519.1188658827452,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "smb mistah gawison"
+    },
+    "330500657": {
+      "rating": 1502.4396820416423,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "KingYonams"
+    },
+    "329350026": {
+      "rating": 1486.3831560463066,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Smart Agent"
+    },
+    "3219223": {
+      "rating": 1443.096260197996,
+      "games": 8,
+      "wins": 0,
+      "losses": 8,
+      "name": "Hybrid Agent"
+    },
+    "330325440": {
+      "rating": 1515.279614602989,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "final bot :D"
+    },
+    "3135641": {
+      "rating": 1516.1469494656574,
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "name": "Lamine Yamal"
+    },
+    "3198611": {
+      "rating": 1470.9488489922492,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "[agent1_module.MCTSAgent object at 0x16e553a00]"
     }
   },
   "metadata": {
     "k_factor": 32,
     "default_rating": 1500,
-    "num_games": 990,
-    "num_matches": 990,
-    "num_agents": 45,
-    "timestamp": "2025-05-04T17:56:35.016182"
+    "num_games": 88,
+    "num_matches": 88,
+    "num_agents": 60,
+    "timestamp": "2025-05-05T01:09:15.622597"
   },
   "agent_names": {
-    "3207461": "OK Agent",
-    "328011679": "[agent1_module.MCTSAgent object at 0x177f5ffd0]",
-    "3135635": "MAP YAY BOT",
-    "330096190": "~Final~",
-    "329083655": "Final Agent, can pass=False",
-    "330001603": "clean agent bedtime",
-    "330897246": "finalagent(k=50, d=7, c=1.00)",
-    "328964243": "Silly Goose Agent",
-    "329995931": "MCTS",
-    "330694942": "MCTS",
-    "330122352": "AZP Parllel MCTS",
-    "330993513": "MCTS",
-    "329350026": "Smart Agent",
-    "329730440": "Hawk 2 v5",
-    "329635623": "MCTS ON ROIDS",
-    "330505447": "Custom Agent 42.2",
+    "3191294": "MCTS",
+    "331011269": "Hybrid(IDS \u2192 MCTS \u2192 AlphaBeta)",
+    "330454017": "FinalPart3Agent",
+    "331072114": "Bolero",
+    "330694942": "is the leaderboard working?",
+    "331064407": "Friedrick",
     "329817259": "MCTSProMax3.0MeowMeow:3 only for $5.99/month",
+    "329995931": "MCTS",
+    "2259735": "Silly Goose Agent \ud80c\udd6d",
+    "328011679": "[agent1_module.MCTSAgent object at 0x16c25ba00]",
+    "330505447": "Custom Agent 42.2",
+    "329500132": "LeAgent",
+    "331155514": "MCTS",
+    "331137504": "MCTS",
+    "329730440": "Hawk 2 v6",
     "1274548": "Final Agent hehe :)",
-    "330848142": "Hybrid MCTS + Pruned Rollouts + Early Term",
-    "329366470": "Opening book + transposition table + better rollout MCTS",
+    "330543349": "MCTS+PURE",
+    "330753289": "STAWPPPP",
     "331007353": "Improved_Agent",
-    "330976602": "idab",
-    "330647708": "ImprovedMCTSAgent",
-    "329747787": "Taiwo",
     "328271455": "G.2",
-    "330472995": "Meowgent",
+    "329366470": "Opening book + transposition table + better rollout MCTS",
+    "331074325": "My Agent",
+    "330470711": "HybriMind",
+    "330795023": "GreedyAgent + Learned Heuristic",
+    "330103170": "Mungnay2",
+    "330848142": "Opening Book MCTS",
     "3198650": "Funky Time",
     "330975559": "MCTS2ElectricBoogaloo",
-    "3199411": "hage id ob 1; co 6; ft-w",
-    "330871689": "muahhahagent",
-    "330470711": "HybriMind",
-    "330929385": "FinalAgent",
-    "329841275": "Hunter Bidens Laptop",
-    "329291116": "TranspositionFlexibleAgent(tt=100000,pf=0.75)",
-    "3135641": "Lamine Yamal",
-    "330325440": "final bot",
-    "330543349": "MCTS+PURE",
-    "329500132": "LeAgent",
+    "331133363": "OptimizedHybridAgent w/ TT",
+    "331045118": "Shin Jinseos Father",
+    "3135635": "MAP YAY BOT",
+    "331064857": "AgentLightspark",
+    "329747787": "Kehinde",
+    "330122352": "AZP Parallel MCTS",
+    "3207461": "OK Agent",
     "329504922": "IterativeDeepening + MCTS Value Net",
-    "330500657": "KingYonams",
-    "330753289": "MCTS2",
-    "3198611": "[agent1_module.MCTSAgent object at 0x178057fd0]",
+    "331027848": "bro",
+    "330472995": "Meowgent",
     "3166202": "MCTS",
-    "331011269": "AlphaBeta w/ depth 3 + Learned Heuristic",
-    "330795023": "GreedyAgent + Simple Heuristic"
+    "330871689": "muahhahagent",
+    "330096190": "~Final~",
+    "329083655": "Final Agent V :)",
+    "330929385": "FinalAgent",
+    "329635623": "MCTS ON ROIDS",
+    "330647708": "MegaAgent MCTS",
+    "329841275": "Hunter Bidens Laptop",
+    "330993513": "SigmaGo",
+    "3199411": "hage id ob 1; co 6; ft-w",
+    "329291116": "TranspositionFlexibleAgent(tt=100000,pf=0.75)",
+    "330897246": "finalagent",
+    "3203847": "YogurtSlayer2727",
+    "331133475": "IterativeDeepeningLearned + Learned Heuristic",
+    "330976602": "idab",
+    "330001603": "smb mistah gawison",
+    "330500657": "KingYonams",
+    "329350026": "Smart Agent",
+    "3219223": "Hybrid Agent",
+    "330325440": "final bot :D",
+    "3135641": "Lamine Yamal",
+    "3198611": "[agent1_module.MCTSAgent object at 0x16e553a00]"
   }
 }
