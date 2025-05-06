@@ -106,7 +106,7 @@ export const TournamentResults: React.FC = () => {
 
   return (
     <div id="Final Project Results" className="tournament-results">
-      <h2>Final Project Tournament Results</h2>
+      <h2>Final Project Tournament Results [In Progress]</h2>
       {bots.length === 0 ? (
         <p>No tournament results available.</p>
       ) : (
