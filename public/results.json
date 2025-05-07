@@ -1,622 +1,862 @@
 {
   "ratings": {
-    "329841275": {
-      "rating": 1595.2607154478335,
-      "games": 150,
-      "wins": 94,
-      "losses": 56,
-      "name": "Hunter Bidens Laptop"
-    },
-    "331009486": {
-      "rating": 1106.692076166346,
-      "games": 150,
-      "wins": 12,
-      "losses": 138,
-      "name": "Youweis Tung Tung Tung Sahur"
-    },
-    "329350026": {
-      "rating": 1428.9542601012217,
-      "games": 150,
-      "wins": 59,
-      "losses": 91,
-      "name": "Smart Agent"
-    },
-    "330694942": {
-      "rating": 1163.8751618259548,
-      "games": 150,
-      "wins": 17,
-      "losses": 133,
-      "name": "FinalAgentt"
-    },
-    "331045118": {
-      "rating": 1542.4897492765872,
-      "games": 150,
-      "wins": 85,
-      "losses": 65,
+    "/home/ewing_eric/S25-Final-Submissions/331045118/submission/submission": {
+      "rating": 1486.2441209904546,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
       "name": "Shin Jinseos Father"
     },
-    "331361347": {
-      "rating": 1564.6733006555835,
-      "games": 150,
-      "wins": 89,
-      "losses": 61,
-      "name": "MCTS"
-    },
-    "331133363": {
-      "rating": 1555.6537768026203,
-      "games": 150,
-      "wins": 82,
-      "losses": 68,
-      "name": "OptimizedHybridAgent w/ TT"
-    },
-    "331288469": {
-      "rating": 1608.5193614644431,
-      "games": 150,
-      "wins": 87,
-      "losses": 63,
-      "name": "MCTS w/ differentiated ties/losses"
-    },
-    "329083655": {
-      "rating": 1613.1723206367055,
-      "games": 150,
-      "wins": 99,
-      "losses": 51,
-      "name": "Final Agent V :)"
-    },
-    "331458388": {
-      "rating": 1593.710835522922,
-      "games": 150,
-      "wins": 99,
-      "losses": 51,
-      "name": "Final agent!!! T_T"
-    },
-    "3198650": {
-      "rating": 1603.3170038193257,
-      "games": 150,
-      "wins": 103,
-      "losses": 47,
-      "name": "Funky Time"
-    },
-    "331251743": {
-      "rating": 1394.362700211151,
-      "games": 150,
-      "wins": 52,
-      "losses": 98,
-      "name": "HybridTerritory"
-    },
-    "329504922": {
-      "rating": 1583.1017544183478,
-      "games": 150,
-      "wins": 89,
-      "losses": 61,
-      "name": "IterativeDeepening + MCTS Value Net"
-    },
-    "329995931": {
-      "rating": 1224.5299885134832,
-      "games": 150,
-      "wins": 25,
-      "losses": 125,
-      "name": "MCTSReworked"
-    },
-    "3135635": {
-      "rating": 1558.5959354095278,
-      "games": 150,
-      "wins": 74,
-      "losses": 76,
-      "name": "MAP YAY BOT"
-    },
-    "330543349": {
-      "rating": 1710.1371301874085,
-      "games": 150,
-      "wins": 109,
-      "losses": 41,
-      "name": "MCTS+PURE"
-    },
-    "331446012": {
-      "rating": 1436.4607799736777,
-      "games": 150,
-      "wins": 63,
-      "losses": 87,
-      "name": "MCTS"
-    },
-    "3207461": {
-      "rating": 1270.1409242381899,
-      "games": 150,
-      "wins": 24,
-      "losses": 126,
-      "name": "OK Agent"
-    },
-    "331468655": {
-      "rating": 1197.8041072666401,
-      "games": 150,
-      "wins": 23,
-      "losses": 127,
-      "name": "ThrowThrowBurrito"
-    },
-    "330976602": {
-      "rating": 1708.330291373467,
-      "games": 150,
-      "wins": 116,
-      "losses": 34,
-      "name": "idab"
-    },
-    "330848142": {
-      "rating": 1373.7928640491582,
-      "games": 150,
-      "wins": 48,
-      "losses": 102,
-      "name": "Opening Book MCTS"
-    },
-    "3166202": {
-      "rating": 1348.059949595907,
-      "games": 150,
-      "wins": 40,
-      "losses": 110,
-      "name": "MCTS"
-    },
-    "330505447": {
-      "rating": 1514.1637273465735,
-      "games": 150,
-      "wins": 81,
-      "losses": 69,
-      "name": "Custom Agent 42.2"
-    },
-    "3198611": {
-      "rating": 1259.840555216505,
-      "games": 150,
-      "wins": 23,
-      "losses": 127,
-      "name": "Final_bot"
-    },
-    "329747787": {
-      "rating": 1620.5789741100805,
-      "games": 150,
-      "wins": 96,
-      "losses": 54,
-      "name": "Kehinde"
-    },
-    "331106561": {
-      "rating": 1447.4187802826364,
-      "games": 150,
-      "wins": 65,
-      "losses": 85,
-      "name": "My Final Bot"
-    },
-    "331137504": {
-      "rating": 1232.5576970967018,
-      "games": 150,
-      "wins": 33,
-      "losses": 117,
-      "name": "complicated IDS"
-    },
-    "331064407": {
-      "rating": 1787.561546252438,
-      "games": 150,
-      "wins": 126,
-      "losses": 24,
-      "name": "Friedrick"
-    },
-    "3219223": {
-      "rating": 1286.8393985604469,
-      "games": 150,
-      "wins": 33,
-      "losses": 117,
-      "name": "hybrid2"
-    },
-    "328271455": {
-      "rating": 1628.702424464982,
-      "games": 150,
-      "wins": 100,
-      "losses": 50,
-      "name": "G.2"
-    },
-    "330795023": {
-      "rating": 1324.2474391346313,
-      "games": 150,
-      "wins": 47,
-      "losses": 103,
-      "name": "GreedyAgent + Learned Heuristic"
-    },
-    "331307521": {
-      "rating": 1581.5000455385878,
-      "games": 150,
-      "wins": 92,
-      "losses": 58,
-      "name": "MCTS"
-    },
-    "1274548": {
-      "rating": 1655.940188068703,
-      "games": 150,
-      "wins": 104,
-      "losses": 46,
-      "name": "Final Agent hehe :)"
-    },
-    "330871689": {
-      "rating": 1788.964389495637,
-      "games": 150,
-      "wins": 123,
-      "losses": 27,
-      "name": "Bibbity boppity BOT"
-    },
-    "329635623": {
-      "rating": 1543.644863848826,
-      "games": 150,
-      "wins": 87,
-      "losses": 63,
-      "name": "MCTS ON ROIDS"
-    },
-    "329500132": {
-      "rating": 1264.0110130185303,
-      "games": 150,
-      "wins": 28,
-      "losses": 122,
-      "name": "LeAgent"
-    },
-    "330500657": {
-      "rating": 1719.827141814552,
-      "games": 150,
-      "wins": 113,
-      "losses": 37,
-      "name": "KingYonams"
-    },
-    "331155514": {
-      "rating": 1438.2753880143723,
-      "games": 150,
-      "wins": 69,
-      "losses": 81,
-      "name": "MCTS"
-    },
-    "330122352": {
-      "rating": 1719.3020682523927,
-      "games": 150,
-      "wins": 110,
-      "losses": 40,
-      "name": "AZP Parallel MCTS"
-    },
-    "328011679": {
-      "rating": 1551.144010252092,
-      "games": 150,
-      "wins": 81,
-      "losses": 69,
-      "name": "[agent1_module.MCTSAgent object at 0x175e77bb0]"
-    },
-    "2259735": {
-      "rating": 1716.6735412667006,
-      "games": 150,
-      "wins": 115,
-      "losses": 35,
-      "name": "Silly Goose Agent \ud80c\udd6d"
-    },
-    "330470711": {
-      "rating": 1390.0009374301965,
-      "games": 150,
-      "wins": 45,
-      "losses": 105,
-      "name": "HybriMind"
-    },
-    "330647708": {
-      "rating": 1609.3826800646234,
-      "games": 150,
-      "wins": 97,
-      "losses": 53,
-      "name": "BookMCTSFlexTime"
-    },
-    "331007353": {
-      "rating": 1463.2065028160364,
-      "games": 150,
-      "wins": 77,
-      "losses": 73,
-      "name": "Improved_Agent"
-    },
-    "330753289": {
-      "rating": 1342.4725700909762,
-      "games": 150,
-      "wins": 41,
-      "losses": 109,
-      "name": "STAWPPPP"
-    },
-    "331133475": {
-      "rating": 1332.2803677915879,
-      "games": 150,
-      "wins": 43,
-      "losses": 107,
-      "name": "IterativeDeepeningLearned + Learned Heuristic"
-    },
-    "331376650": {
-      "rating": 1576.9848255425409,
-      "games": 150,
-      "wins": 87,
-      "losses": 63,
-      "name": "DABINATOR"
-    },
-    "331311224": {
-      "rating": 1510.5509942255376,
-      "games": 150,
-      "wins": 80,
-      "losses": 70,
-      "name": "hybrid agent"
-    },
-    "330096190": {
-      "rating": 1689.175442853338,
-      "games": 150,
-      "wins": 108,
-      "losses": 42,
-      "name": "~Final~"
-    },
-    "330454017": {
-      "rating": 1364.5443010253018,
-      "games": 150,
-      "wins": 49,
-      "losses": 101,
+    "/home/ewing_eric/S25-Final-Submissions/330454017/submission/submission": {
+      "rating": 1507.2431179505516,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
       "name": "FinalPart3Agent"
     },
-    "330897246": {
-      "rating": 1408.8324408762874,
-      "games": 150,
-      "wins": 59,
-      "losses": 91,
-      "name": "finalagent"
-    },
-    "3198617": {
-      "rating": 1469.6990190391227,
-      "games": 150,
-      "wins": 59,
-      "losses": 91,
-      "name": "IDS with Transposition Tables + Territory Heuristic"
-    },
-    "331064857": {
-      "rating": 1792.0970720608136,
-      "games": 150,
-      "wins": 129,
-      "losses": 21,
-      "name": "AgentLightspark"
-    },
-    "329291116": {
-      "rating": 1604.9874944432486,
-      "games": 150,
-      "wins": 96,
-      "losses": 54,
-      "name": "AdaptiveExplorationAgent(history_weight=1.0, c_open=2.0, c_end=0.5, curve=quadratic)"
-    },
-    "331027848": {
-      "rating": 1760.3731426663905,
-      "games": 150,
-      "wins": 125,
-      "losses": 25,
-      "name": "bro"
-    },
-    "329366470": {
-      "rating": 1305.6725847591783,
-      "games": 150,
-      "wins": 35,
-      "losses": 115,
-      "name": "Opening book + transposition table + better rollout MCTS"
-    },
-    "331408358": {
-      "rating": 1211.243844656612,
-      "games": 150,
-      "wins": 24,
-      "losses": 126,
-      "name": "finalfinalfinalDeepRl"
-    },
-    "1720634": {
-      "rating": 1094.9547345729952,
-      "games": 150,
-      "wins": 4,
-      "losses": 146,
-      "name": "MCTS Lock In"
-    },
-    "329817259": {
-      "rating": 1767.0021531879563,
-      "games": 150,
-      "wins": 127,
-      "losses": 23,
-      "name": "MCTSProMax3.0MeowMeow:3 only for $5.99/month"
-    },
-    "330001603": {
-      "rating": 1728.468988829242,
-      "games": 150,
-      "wins": 119,
-      "losses": 31,
-      "name": "smb mistah gawison"
-    },
-    "330993513": {
-      "rating": 1718.401959620401,
-      "games": 150,
-      "wins": 119,
-      "losses": 31,
-      "name": "SigmaGo Zero"
-    },
-    "331278254": {
-      "rating": 1068.3273219145256,
-      "games": 150,
-      "wins": 7,
-      "losses": 143,
-      "name": "MyAgent"
-    },
-    "330472995": {
-      "rating": 1592.895351525943,
-      "games": 150,
-      "wins": 96,
-      "losses": 54,
-      "name": "Meowgent"
-    },
-    "330975559": {
-      "rating": 1652.4100019358875,
-      "games": 150,
-      "wins": 112,
-      "losses": 38,
-      "name": "MCTS2ElectricBoogaloo"
-    },
-    "331291758": {
-      "rating": 1624.5900139541625,
-      "games": 150,
-      "wins": 86,
-      "losses": 64,
-      "name": "AgentTryingItsBest"
-    },
-    "331467959": {
-      "rating": 1557.5372246904903,
-      "games": 150,
-      "wins": 83,
-      "losses": 67,
+    "/home/ewing_eric/S25-Final-Submissions/3166202/submission/submission": {
+      "rating": 1482.678968321385,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
       "name": "MCTS"
     },
-    "3191294": {
-      "rating": 1265.7659401252718,
-      "games": 150,
-      "wins": 25,
-      "losses": 125,
+    "/home/ewing_eric/S25-Final-Submissions/331278254/submission/submission": {
+      "rating": 1473.048399912335,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "MyAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331697797/submission/submission": {
+      "rating": 1477.5153122315105,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "IterativeDeepneing + Simple Heuristic"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331731803/submission/submission": {
+      "rating": 1522.765300454069,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "AurabotV2.4"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3233731/submission/submission": {
+      "rating": 1497.3620994443083,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329817259/submission/submission": {
+      "rating": 1527.6299710181434,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "MCTSProMax3.0MeowMeow:3 only for $5.99/month"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/2259735/submission/submission": {
+      "rating": 1530.482013107934,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Silly Goose Agent \ud80c\udd6d"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329350026/submission/submission": {
+      "rating": 1511.6919222594918,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Smart Agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331689837/submission/submission": {
+      "rating": 1489.6574561275518,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Hybreezy"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3198617/submission/submission": {
+      "rating": 1499.763368027559,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "Combined Agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331291758/submission/submission": {
+      "rating": 1475.0389176259746,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "AgentTryingItsBest"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329730440/submission/submission": {
+      "rating": 1513.0804590427922,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Hawk 2 v8"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331728146/submission/submission": {
+      "rating": 1491.162676756088,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Agent Smith"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331484190/submission/submission": {
+      "rating": 1476.409821128012,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "AgentPuppy"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331074325/submission/submission": {
+      "rating": 1487.2073780844698,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Heatmap & Score Boosts Agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331468655/submission/submission": {
+      "rating": 1506.2123666498612,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "ThrowThrowBurrito!"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330975559/submission/submission": {
+      "rating": 1519.8302193036889,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "MCTS2ElectricBoogaloo"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331027848/submission/submission": {
+      "rating": 1502.6439574908038,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "bro"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/328011679/submission/submission": {
+      "rating": 1481.9481390065037,
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "name": "[agent1_module.MCTSAgent object at 0x7fa01f9cad10]"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331009486/submission/submission": {
+      "rating": 1493.221293657407,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "YouweiZhen.coms Tung Tung Tung Sahur"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330246572/submission/submission": {
+      "rating": 1539.9266776463785,
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "name": "Final Hybrid Agent (ob 1, cutoff 6)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329366470/submission/submission": {
+      "rating": 1482.3012154710937,
+      "games": 8,
+      "wins": 3,
+      "losses": 5,
+      "name": "Opening book + transposition table + better rollout MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331744660/submission/submission": {
+      "rating": 1448.3270661722956,
+      "games": 8,
+      "wins": 0,
+      "losses": 8,
+      "name": "KENOS VERIFIED (Extreme Demon) by Bianox & More!"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331548916/submission/submission": {
+      "rating": 1490.4972840195053,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Neural MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331740857/submission/submission": {
+      "rating": 1507.3183944127863,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "TRALALERO TRALALA"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331639559/submission/submission": {
+      "rating": 1459.4813478273938,
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "name": "ClassicMCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3191294/submission/submission": {
+      "rating": 1499.4409678751358,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
       "name": "OpeningBookAgent"
     },
-    "3199411": {
-      "rating": 1693.2745410036925,
-      "games": 150,
-      "wins": 118,
-      "losses": 32,
-      "name": "hage id ob 1; co 6; ft-w"
-    },
-    "330325440": {
-      "rating": 1323.8418903089514,
-      "games": 150,
-      "wins": 36,
-      "losses": 114,
+    "/home/ewing_eric/S25-Final-Submissions/330325440/submission/submission": {
+      "rating": 1507.4751315727335,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
       "name": "final bot :D"
     },
-    "330929385": {
-      "rating": 1622.9784912683592,
-      "games": 150,
-      "wins": 106,
-      "losses": 44,
-      "name": "FinalAgent"
+    "/home/ewing_eric/S25-Final-Submissions/330795023/submission/submission": {
+      "rating": 1448.165356239058,
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "name": "[class agent2_module.HybridTwo]"
     },
-    "330103170": {
-      "rating": 1739.8829288798706,
-      "games": 150,
-      "wins": 118,
-      "losses": 32,
-      "name": "Mungnay"
+    "/home/ewing_eric/S25-Final-Submissions/330103170/submission/submission": {
+      "rating": 1493.688877835537,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "mungnay"
     },
-    "331443737": {
-      "rating": 1364.376191683702,
-      "games": 150,
-      "wins": 48,
-      "losses": 102,
-      "name": "AlphaAgent"
-    },
-    "3135641": {
-      "rating": 1605.451093581574,
-      "games": 150,
-      "wins": 97,
-      "losses": 53,
-      "name": "Lamine Yamal"
-    },
-    "3203847": {
-      "rating": 1493.487475169373,
-      "games": 150,
-      "wins": 83,
-      "losses": 67,
+    "/home/ewing_eric/S25-Final-Submissions/3203847/submission/submission": {
+      "rating": 1497.0676058963104,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
       "name": "YogurtSlayer2727"
     },
-    "329730440": {
-      "rating": 1598.1737411955678,
-      "games": 150,
-      "wins": 95,
-      "losses": 55,
-      "name": "Hawk 2 v7"
+    "/home/ewing_eric/S25-Final-Submissions/330897246/submission/submission": {
+      "rating": 1479.094703294033,
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "name": "finalagent"
     },
-    "331074325": {
-      "rating": 1393.8475572183518,
-      "games": 150,
-      "wins": 52,
-      "losses": 98,
-      "name": "My Agent"
+    "/home/ewing_eric/S25-Final-Submissions/331361347/submission/submission": {
+      "rating": 1538.6153989541624,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "montecarlalero treelala"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331064857/submission/submission": {
+      "rating": 1519.1082715625178,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "AgentLightspark"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331631984/submission/submission": {
+      "rating": 1475.9678397561026,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "GoGoGURL!"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329500132/submission/submission": {
+      "rating": 1496.5982514841305,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "LeAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330753289/submission/submission": {
+      "rating": 1477.2727241822572,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "STAWPPPP"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331727537/submission/submission": {
+      "rating": 1476.3163856775104,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331731248/submission/submission": {
+      "rating": 1536.7516277021007,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "maGOnus carlsen"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329083655/submission/submission": {
+      "rating": 1553.1609073726818,
+      "games": 12,
+      "wins": 10,
+      "losses": 2,
+      "name": "Final Agent V :)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331133475/submission/submission": {
+      "rating": 1488.1414430564316,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "IterativeDeepeningLearned + Learned Heuristic"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331251743/submission/submission": {
+      "rating": 1473.715794606876,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "HybridTerritory"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331106561/submission/submission": {
+      "rating": 1503.768431763693,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "MY FINAL BOT"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331072114/submission/submission": {
+      "rating": 1486.6112713074979,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "bolero"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329747787/submission/submission": {
+      "rating": 1512.602453999062,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Kehinde"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329635623/submission/submission": {
+      "rating": 1465.4870162521581,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "MCTS ON ROIDS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331137504/submission/submission": {
+      "rating": 1473.6284594154986,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "Enhanced Iterative Deepening + Improved Heuristic"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330505447/submission/submission": {
+      "rating": 1508.1210290088127,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "Custom Agent 42.3"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/328271455/submission/submission": {
+      "rating": 1529.0326713518689,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "G.2"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331011269/submission/submission": {
+      "rating": 1519.207744575382,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "Hybrid(IDS \u2192 MCTS \u2192 AlphaBeta)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330001603/submission/submission": {
+      "rating": 1553.379113605496,
+      "games": 10,
+      "wins": 9,
+      "losses": 1,
+      "name": "Lee Sedol"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331672462/submission/submission": {
+      "rating": 1522.5442641334025,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331288469/submission/submission": {
+      "rating": 1489.7959666992438,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "[agent2_module.ParallelAgent object at 0x7f4f2da9ab50]"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/1720634/submission/submission": {
+      "rating": 1246.205382281162,
+      "games": 104,
+      "wins": 13,
+      "losses": 91,
+      "name": "MCTS Lock In"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/1929420/submission/submission": {
+      "rating": 1484.7023986633528,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "EnhancedMCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329841275/submission/submission": {
+      "rating": 1526.5550676302487,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Hunter Bidens Laptop"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330993513/submission/submission": {
+      "rating": 1518.8265869902352,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "SigmaZero"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3199411/submission/submission": {
+      "rating": 1528.8186540804495,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Final Hybrid Agent (ob 1, cutoff 6)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330500657/submission/submission": {
+      "rating": 1508.3019561062113,
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "name": "KingYonams"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331155514/submission/submission": {
+      "rating": 1505.120402611584,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "pedri"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331307521/submission/submission": {
+      "rating": 1490.54913489312,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "Gabes Goofy Goober"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331064407/submission/submission": {
+      "rating": 1502.8613903607231,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Friedrick"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3124666/submission/submission": {
+      "rating": 1452.652655639016,
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "name": "IterativeDeepneing + Simple Heuristic"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331630771/submission/submission": {
+      "rating": 1522.9314952682726,
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3198611/submission/submission": {
+      "rating": 1499.4412973906678,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "Final_bot"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331561162/submission/submission": {
+      "rating": 1490.8586333297053,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329504922/submission/submission": {
+      "rating": 1512.245852502703,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "IterativeDeepening + MCTS Value Net"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3135635/submission/submission": {
+      "rating": 1485.2627230249789,
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "name": "MAP YAY BOT"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330122352/submission/submission": {
+      "rating": 1522.7907610855777,
+      "games": 10,
+      "wins": 7,
+      "losses": 3,
+      "name": "AZP Parallel MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330694942/submission/submission": {
+      "rating": 1492.8746151070156,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "MCTS Pro Max"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331467959/submission/submission": {
+      "rating": 1506.5520591942527,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "FinalHybridAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330976602/submission/submission": {
+      "rating": 1501.8084389313076,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "idab"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331740409/submission/submission": {
+      "rating": 1490.6834829298539,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "MCTS-3000"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331133363/submission/submission": {
+      "rating": 1487.6041026397425,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "OptimizedHybridAgent w/ TT"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331524412/submission/submission": {
+      "rating": 1520.8093604216956,
+      "games": 8,
+      "wins": 5,
+      "losses": 3,
+      "name": "frank ocean agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330096190/submission/submission": {
+      "rating": 1508.4205012048783,
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "name": "~Final~"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329995931/submission/submission": {
+      "rating": 1525.0182054656366,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "My final MCTS and other stuff"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331738897/submission/submission": {
+      "rating": 1506.9452958149525,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Heuristic?MCTSAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331311224/submission/submission": {
+      "rating": 1490.9355405465308,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "ayeee goteem"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331724395/submission/submission": {
+      "rating": 1490.4569270994323,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "AFTERTHOUGHT"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330472995/submission/submission": {
+      "rating": 1462.8612222442478,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "Meowgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331458388/submission/submission": {
+      "rating": 1490.0765212038937,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Final agent!!! T_T"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3198650/submission/submission": {
+      "rating": 1556.9725384391497,
+      "games": 10,
+      "wins": 9,
+      "losses": 1,
+      "name": "Funky Time"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3135641/submission/submission": {
+      "rating": 1530.5933657745109,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Lamine Yamal"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3207461/submission/submission": {
+      "rating": 1480.9325958972718,
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "name": "OK Agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331007353/submission/submission": {
+      "rating": 1471.7866874467734,
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "name": "Improved_Agent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330871689/submission/submission": {
+      "rating": 1526.0541351732998,
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "name": "Bibbity boppity BOT"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331446012/submission/submission": {
+      "rating": 1535.284550273121,
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "name": "MCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/329291116/submission/submission": {
+      "rating": 1495.1331867702968,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "AdaptiveExplorationAgent(history_weight=0.5, c_open=0.5, c_end=2.0, curve=quadratic)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/1966442/submission/submission": {
+      "rating": 1559.4313038373473,
+      "games": 8,
+      "wins": 8,
+      "losses": 0,
+      "name": "NeuralMCTS"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331628736/submission/submission": {
+      "rating": 1491.8522439635472,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "GoBabyGo"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/1274548/submission/submission": {
+      "rating": 1689.8294834538094,
+      "games": 210,
+      "wins": 144,
+      "losses": 66,
+      "name": "Final Agent hehe :)"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330470711/submission/submission": {
+      "rating": 1491.4641894354486,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "HybriMind"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330543349/submission/submission": {
+      "rating": 1462.7396853895868,
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "name": "MCTS+PURE"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/3199421/submission/submission": {
+      "rating": 1496.9141791793322,
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "name": "RecuerdaMe3C"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331745141/submission/submission": {
+      "rating": 1491.672874635519,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Andy"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330929385/submission/submission": {
+      "rating": 1510.2840165932068,
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "name": "FinalAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331669795/submission/submission": {
+      "rating": 1506.8030381239569,
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "name": "Potato"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330647708/submission/submission": {
+      "rating": 1537.8984086818823,
+      "games": 8,
+      "wins": 7,
+      "losses": 1,
+      "name": "BookMCTSFlexTime"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331540990/submission/submission": {
+      "rating": 1490.1127004871812,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "Lebrons neurons"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331443737/submission/submission": {
+      "rating": 1489.9581963510523,
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "name": "AlphaAgent"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331376650/submission/submission": {
+      "rating": 1521.6608763636016,
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "name": "DABINATOR"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/331408358/submission/submission": {
+      "rating": 1489.5067394629382,
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "name": "RL IDS Tralalero Tralala"
+    },
+    "/home/ewing_eric/S25-Final-Submissions/330848142/submission/submission": {
+      "rating": 1494.4953662856774,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "name": "OB + SM + MCTS"
     }
   },
   "metadata": {
     "k_factor": 32,
     "default_rating": 1500,
-    "num_games": 2850,
-    "num_matches": 2850,
-    "num_agents": 76,
-    "timestamp": "2025-05-06T17:00:35.626765"
+    "num_games": 192,
+    "num_matches": 192,
+    "num_agents": 106,
+    "timestamp": "2025-05-07T06:53:52.732153"
   },
   "agent_names": {
-    "329841275": "Hunter Bidens Laptop",
-    "331009486": "Youweis Tung Tung Tung Sahur",
-    "329350026": "Smart Agent",
-    "330694942": "FinalAgentt",
-    "331045118": "Shin Jinseos Father",
-    "331361347": "MCTS",
-    "331133363": "OptimizedHybridAgent w/ TT",
-    "331288469": "MCTS w/ differentiated ties/losses",
-    "329083655": "Final Agent V :)",
-    "331458388": "Final agent!!! T_T",
-    "3198650": "Funky Time",
-    "331251743": "HybridTerritory",
-    "329504922": "IterativeDeepening + MCTS Value Net",
-    "329995931": "MCTSReworked",
-    "3135635": "MAP YAY BOT",
-    "330543349": "MCTS+PURE",
-    "331446012": "MCTS",
-    "3207461": "OK Agent",
-    "331468655": "ThrowThrowBurrito",
-    "330976602": "idab",
-    "330848142": "Opening Book MCTS",
-    "3166202": "MCTS",
-    "330505447": "Custom Agent 42.2",
-    "3198611": "Final_bot",
-    "329747787": "Kehinde",
-    "331106561": "My Final Bot",
-    "331137504": "complicated IDS",
-    "331064407": "Friedrick",
-    "3219223": "hybrid2",
-    "328271455": "G.2",
-    "330795023": "GreedyAgent + Learned Heuristic",
-    "331307521": "MCTS",
-    "1274548": "Final Agent hehe :)",
-    "330871689": "Bibbity boppity BOT",
-    "329635623": "MCTS ON ROIDS",
-    "329500132": "LeAgent",
-    "330500657": "KingYonams",
-    "331155514": "MCTS",
-    "330122352": "AZP Parallel MCTS",
-    "328011679": "[agent1_module.MCTSAgent object at 0x175e77bb0]",
-    "2259735": "Silly Goose Agent \ud80c\udd6d",
-    "330470711": "HybriMind",
-    "330647708": "BookMCTSFlexTime",
-    "331007353": "Improved_Agent",
-    "330753289": "STAWPPPP",
-    "331133475": "IterativeDeepeningLearned + Learned Heuristic",
-    "331376650": "DABINATOR",
-    "331311224": "hybrid agent",
-    "330096190": "~Final~",
-    "330454017": "FinalPart3Agent",
-    "330897246": "finalagent",
-    "3198617": "IDS with Transposition Tables + Territory Heuristic",
-    "331064857": "AgentLightspark",
-    "329291116": "AdaptiveExplorationAgent(history_weight=1.0, c_open=2.0, c_end=0.5, curve=quadratic)",
-    "331027848": "bro",
-    "329366470": "Opening book + transposition table + better rollout MCTS",
-    "331408358": "finalfinalfinalDeepRl",
-    "1720634": "MCTS Lock In",
-    "329817259": "MCTSProMax3.0MeowMeow:3 only for $5.99/month",
-    "330001603": "smb mistah gawison",
-    "330993513": "SigmaGo Zero",
-    "331278254": "MyAgent",
-    "330472995": "Meowgent",
-    "330975559": "MCTS2ElectricBoogaloo",
-    "331291758": "AgentTryingItsBest",
-    "331467959": "MCTS",
-    "3191294": "OpeningBookAgent",
-    "3199411": "hage id ob 1; co 6; ft-w",
-    "330325440": "final bot :D",
-    "330929385": "FinalAgent",
-    "330103170": "Mungnay",
-    "331443737": "AlphaAgent",
-    "3135641": "Lamine Yamal",
-    "3203847": "YogurtSlayer2727",
-    "329730440": "Hawk 2 v7",
-    "331074325": "My Agent"
+    "/home/ewing_eric/S25-Final-Submissions/331045118/submission/submission": "Shin Jinseos Father",
+    "/home/ewing_eric/S25-Final-Submissions/330454017/submission/submission": "FinalPart3Agent",
+    "/home/ewing_eric/S25-Final-Submissions/3166202/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331278254/submission/submission": "MyAgent",
+    "/home/ewing_eric/S25-Final-Submissions/331697797/submission/submission": "IterativeDeepneing + Simple Heuristic",
+    "/home/ewing_eric/S25-Final-Submissions/331731803/submission/submission": "AurabotV2.4",
+    "/home/ewing_eric/S25-Final-Submissions/3233731/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/329817259/submission/submission": "MCTSProMax3.0MeowMeow:3 only for $5.99/month",
+    "/home/ewing_eric/S25-Final-Submissions/2259735/submission/submission": "Silly Goose Agent \ud80c\udd6d",
+    "/home/ewing_eric/S25-Final-Submissions/329350026/submission/submission": "Smart Agent",
+    "/home/ewing_eric/S25-Final-Submissions/331689837/submission/submission": "Hybreezy",
+    "/home/ewing_eric/S25-Final-Submissions/3198617/submission/submission": "Combined Agent",
+    "/home/ewing_eric/S25-Final-Submissions/331291758/submission/submission": "AgentTryingItsBest",
+    "/home/ewing_eric/S25-Final-Submissions/329730440/submission/submission": "Hawk 2 v8",
+    "/home/ewing_eric/S25-Final-Submissions/331728146/submission/submission": "Agent Smith",
+    "/home/ewing_eric/S25-Final-Submissions/331484190/submission/submission": "AgentPuppy",
+    "/home/ewing_eric/S25-Final-Submissions/331074325/submission/submission": "Heatmap & Score Boosts Agent",
+    "/home/ewing_eric/S25-Final-Submissions/331468655/submission/submission": "ThrowThrowBurrito!",
+    "/home/ewing_eric/S25-Final-Submissions/330975559/submission/submission": "MCTS2ElectricBoogaloo",
+    "/home/ewing_eric/S25-Final-Submissions/331027848/submission/submission": "bro",
+    "/home/ewing_eric/S25-Final-Submissions/328011679/submission/submission": "[agent1_module.MCTSAgent object at 0x7fa01f9cad10]",
+    "/home/ewing_eric/S25-Final-Submissions/331009486/submission/submission": "YouweiZhen.coms Tung Tung Tung Sahur",
+    "/home/ewing_eric/S25-Final-Submissions/330246572/submission/submission": "Final Hybrid Agent (ob 1, cutoff 6)",
+    "/home/ewing_eric/S25-Final-Submissions/329366470/submission/submission": "Opening book + transposition table + better rollout MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331744660/submission/submission": "KENOS VERIFIED (Extreme Demon) by Bianox & More!",
+    "/home/ewing_eric/S25-Final-Submissions/331548916/submission/submission": "Neural MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331740857/submission/submission": "TRALALERO TRALALA",
+    "/home/ewing_eric/S25-Final-Submissions/331639559/submission/submission": "ClassicMCTS",
+    "/home/ewing_eric/S25-Final-Submissions/3191294/submission/submission": "OpeningBookAgent",
+    "/home/ewing_eric/S25-Final-Submissions/330325440/submission/submission": "final bot :D",
+    "/home/ewing_eric/S25-Final-Submissions/330795023/submission/submission": "[class agent2_module.HybridTwo]",
+    "/home/ewing_eric/S25-Final-Submissions/330103170/submission/submission": "mungnay",
+    "/home/ewing_eric/S25-Final-Submissions/3203847/submission/submission": "YogurtSlayer2727",
+    "/home/ewing_eric/S25-Final-Submissions/330897246/submission/submission": "finalagent",
+    "/home/ewing_eric/S25-Final-Submissions/331361347/submission/submission": "montecarlalero treelala",
+    "/home/ewing_eric/S25-Final-Submissions/331064857/submission/submission": "AgentLightspark",
+    "/home/ewing_eric/S25-Final-Submissions/331631984/submission/submission": "GoGoGURL!",
+    "/home/ewing_eric/S25-Final-Submissions/329500132/submission/submission": "LeAgent",
+    "/home/ewing_eric/S25-Final-Submissions/330753289/submission/submission": "STAWPPPP",
+    "/home/ewing_eric/S25-Final-Submissions/331727537/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331731248/submission/submission": "maGOnus carlsen",
+    "/home/ewing_eric/S25-Final-Submissions/329083655/submission/submission": "Final Agent V :)",
+    "/home/ewing_eric/S25-Final-Submissions/331133475/submission/submission": "IterativeDeepeningLearned + Learned Heuristic",
+    "/home/ewing_eric/S25-Final-Submissions/331251743/submission/submission": "HybridTerritory",
+    "/home/ewing_eric/S25-Final-Submissions/331106561/submission/submission": "MY FINAL BOT",
+    "/home/ewing_eric/S25-Final-Submissions/331072114/submission/submission": "bolero",
+    "/home/ewing_eric/S25-Final-Submissions/329747787/submission/submission": "Kehinde",
+    "/home/ewing_eric/S25-Final-Submissions/329635623/submission/submission": "MCTS ON ROIDS",
+    "/home/ewing_eric/S25-Final-Submissions/331137504/submission/submission": "Enhanced Iterative Deepening + Improved Heuristic",
+    "/home/ewing_eric/S25-Final-Submissions/330505447/submission/submission": "Custom Agent 42.3",
+    "/home/ewing_eric/S25-Final-Submissions/328271455/submission/submission": "G.2",
+    "/home/ewing_eric/S25-Final-Submissions/331011269/submission/submission": "Hybrid(IDS \u2192 MCTS \u2192 AlphaBeta)",
+    "/home/ewing_eric/S25-Final-Submissions/330001603/submission/submission": "Lee Sedol",
+    "/home/ewing_eric/S25-Final-Submissions/331672462/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331288469/submission/submission": "[agent2_module.ParallelAgent object at 0x7f4f2da9ab50]",
+    "/home/ewing_eric/S25-Final-Submissions/1720634/submission/submission": "MCTS Lock In",
+    "/home/ewing_eric/S25-Final-Submissions/1929420/submission/submission": "EnhancedMCTS",
+    "/home/ewing_eric/S25-Final-Submissions/329841275/submission/submission": "Hunter Bidens Laptop",
+    "/home/ewing_eric/S25-Final-Submissions/330993513/submission/submission": "SigmaZero",
+    "/home/ewing_eric/S25-Final-Submissions/3199411/submission/submission": "Final Hybrid Agent (ob 1, cutoff 6)",
+    "/home/ewing_eric/S25-Final-Submissions/330500657/submission/submission": "KingYonams",
+    "/home/ewing_eric/S25-Final-Submissions/331155514/submission/submission": "pedri",
+    "/home/ewing_eric/S25-Final-Submissions/331307521/submission/submission": "Gabes Goofy Goober",
+    "/home/ewing_eric/S25-Final-Submissions/331064407/submission/submission": "Friedrick",
+    "/home/ewing_eric/S25-Final-Submissions/3124666/submission/submission": "IterativeDeepneing + Simple Heuristic",
+    "/home/ewing_eric/S25-Final-Submissions/331630771/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/3198611/submission/submission": "Final_bot",
+    "/home/ewing_eric/S25-Final-Submissions/331561162/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/329504922/submission/submission": "IterativeDeepening + MCTS Value Net",
+    "/home/ewing_eric/S25-Final-Submissions/3135635/submission/submission": "MAP YAY BOT",
+    "/home/ewing_eric/S25-Final-Submissions/330122352/submission/submission": "AZP Parallel MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/330694942/submission/submission": "MCTS Pro Max",
+    "/home/ewing_eric/S25-Final-Submissions/331467959/submission/submission": "FinalHybridAgent",
+    "/home/ewing_eric/S25-Final-Submissions/330976602/submission/submission": "idab",
+    "/home/ewing_eric/S25-Final-Submissions/331740409/submission/submission": "MCTS-3000",
+    "/home/ewing_eric/S25-Final-Submissions/331133363/submission/submission": "OptimizedHybridAgent w/ TT",
+    "/home/ewing_eric/S25-Final-Submissions/331524412/submission/submission": "frank ocean agent",
+    "/home/ewing_eric/S25-Final-Submissions/330096190/submission/submission": "~Final~",
+    "/home/ewing_eric/S25-Final-Submissions/329995931/submission/submission": "My final MCTS and other stuff",
+    "/home/ewing_eric/S25-Final-Submissions/331738897/submission/submission": "Heuristic?MCTSAgent",
+    "/home/ewing_eric/S25-Final-Submissions/331311224/submission/submission": "ayeee goteem",
+    "/home/ewing_eric/S25-Final-Submissions/331724395/submission/submission": "AFTERTHOUGHT",
+    "/home/ewing_eric/S25-Final-Submissions/330472995/submission/submission": "Meowgent",
+    "/home/ewing_eric/S25-Final-Submissions/331458388/submission/submission": "Final agent!!! T_T",
+    "/home/ewing_eric/S25-Final-Submissions/3198650/submission/submission": "Funky Time",
+    "/home/ewing_eric/S25-Final-Submissions/3135641/submission/submission": "Lamine Yamal",
+    "/home/ewing_eric/S25-Final-Submissions/3207461/submission/submission": "OK Agent",
+    "/home/ewing_eric/S25-Final-Submissions/331007353/submission/submission": "Improved_Agent",
+    "/home/ewing_eric/S25-Final-Submissions/330871689/submission/submission": "Bibbity boppity BOT",
+    "/home/ewing_eric/S25-Final-Submissions/331446012/submission/submission": "MCTS",
+    "/home/ewing_eric/S25-Final-Submissions/329291116/submission/submission": "AdaptiveExplorationAgent(history_weight=0.5, c_open=0.5, c_end=2.0, curve=quadratic)",
+    "/home/ewing_eric/S25-Final-Submissions/1966442/submission/submission": "NeuralMCTS",
+    "/home/ewing_eric/S25-Final-Submissions/331628736/submission/submission": "GoBabyGo",
+    "/home/ewing_eric/S25-Final-Submissions/1274548/submission/submission": "Final Agent hehe :)",
+    "/home/ewing_eric/S25-Final-Submissions/330470711/submission/submission": "HybriMind",
+    "/home/ewing_eric/S25-Final-Submissions/330543349/submission/submission": "MCTS+PURE",
+    "/home/ewing_eric/S25-Final-Submissions/3199421/submission/submission": "RecuerdaMe3C",
+    "/home/ewing_eric/S25-Final-Submissions/331745141/submission/submission": "Andy",
+    "/home/ewing_eric/S25-Final-Submissions/330929385/submission/submission": "FinalAgent",
+    "/home/ewing_eric/S25-Final-Submissions/331669795/submission/submission": "Potato",
+    "/home/ewing_eric/S25-Final-Submissions/330647708/submission/submission": "BookMCTSFlexTime",
+    "/home/ewing_eric/S25-Final-Submissions/331540990/submission/submission": "Lebrons neurons",
+    "/home/ewing_eric/S25-Final-Submissions/331443737/submission/submission": "AlphaAgent",
+    "/home/ewing_eric/S25-Final-Submissions/331376650/submission/submission": "DABINATOR",
+    "/home/ewing_eric/S25-Final-Submissions/331408358/submission/submission": "RL IDS Tralalero Tralala",
+    "/home/ewing_eric/S25-Final-Submissions/330848142/submission/submission": "OB + SM + MCTS"
   }
 }
