@@ -106,7 +106,15 @@ export const TournamentResults: React.FC = () => {
 
   return (
     <div id="Final Project Results" className="tournament-results">
-      <h2>Final Project Tournament Results [In Progress, Handling Late Submissions...]</h2>
+      <h2 style={{ color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Final Tournament is running... We have our best cats on it.</h2>
+      <div className="cat-image-container">
+        <img 
+          src={`${process.env.PUBLIC_URL}/cat_go.png`} 
+          alt="Cat playing Go" 
+          className="cat-image"
+        />
+      </div>
+      {/* Temporarily hiding the results table
       {bots.length === 0 ? (
         <p>No tournament results available.</p>
       ) : (
@@ -145,6 +153,7 @@ export const TournamentResults: React.FC = () => {
           </tbody>
         </table>
       )}
+      */}
     </div>
   );
 }; 
