@@ -106,15 +106,7 @@ export const TournamentResults: React.FC = () => {
 
   return (
     <div id="Final Project Results" className="tournament-results">
-      <h2 style={{ color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Final Tournament is running... We have our best cats on it.</h2>
-      <div className="cat-image-container">
-        <img 
-          src={`${process.env.PUBLIC_URL}/cat_go.png`} 
-          alt="Cat playing Go" 
-          className="cat-image"
-        />
-      </div>
-      {/* Temporarily hiding the results table
+      <h2 style={{ color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Final Tournament Results!</h2>
       {bots.length === 0 ? (
         <p>No tournament results available.</p>
       ) : (
@@ -129,10 +121,7 @@ export const TournamentResults: React.FC = () => {
                 ID {sortField === 'id' && (sortDirection === 'asc' ? '↑' : '↓')}
               </th>
               <th onClick={() => handleSort('wins')} className="sortable">
-                Wins {sortField === 'wins' && (sortDirection === 'asc' ? '↑' : '↓')}
-              </th>
-              <th onClick={() => handleSort('losses')} className="sortable">
-                Losses {sortField === 'losses' && (sortDirection === 'asc' ? '↑' : '↓')}
+                Win Percentage {sortField === 'wins' && (sortDirection === 'asc' ? '↑' : '↓')}
               </th>
               <th onClick={() => handleSort('rating')} className="sortable">
                 ELO Rating {sortField === 'rating' && (sortDirection === 'asc' ? '↑' : '↓')}
@@ -140,20 +129,18 @@ export const TournamentResults: React.FC = () => {
             </tr>
           </thead>
           <tbody>
-            {sortedBots.map((bot, index) => (
+            {sortedBots.filter(bot => bot.id !== '3199411').map((bot, index) => (
               <tr key={`${bot.id}-${bot.name}`}>
                 <td>{index + 1}</td>
                 <td>{bot.name}</td>
                 <td>{bot.id}</td>
-                <td>{bot.wins}</td>
-                <td>{bot.losses}</td>
+                <td>{(bot.wins / (bot.wins + bot.losses)).toFixed(2)}</td>
                 <td>{bot.rating}</td>
               </tr>
             ))}
           </tbody>
         </table>
       )}
-      */}
     </div>
   );
-}; 
+}
